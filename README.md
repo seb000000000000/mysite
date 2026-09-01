@@ -12,6 +12,15 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 [...]
 
+1 sept - thuis 
+idee: site over mijn creatieve inspiraties/intresses maken zodat ik veel dingen die ik cool vind kan combineren in mijn site 
+
+- mythologie
+- anime/manga
+- games (retro) 
+- spiderverse style
+- japan
+  
 ### 31 aug - Kickoff
 
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
