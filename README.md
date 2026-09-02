@@ -8,11 +8,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 [...]
 
-### 3 sept - [Workshop]
+### 2 sept - [ziek thuis inplaats van workshop]
+ziek thuis, maar probeer thuis verder te komen, denk dat ik vscodium heb gekoppeld aan site maar denk dat ik iets fout heb gedaan want veranderingen worden niet door gevoerd. 
 
-[...]
-
-1 sept - thuis 
+### 1 sept - [thuis]
 idee: site over mijn creatieve inspiraties/intresses maken zodat ik veel dingen die ik cool vind kan combineren in mijn site 
 
 - mythologie
