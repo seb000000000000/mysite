@@ -19,7 +19,7 @@ idee: site over mijn creatieve inspiraties/intresses maken zodat ik veel dingen 
 - anime/manga
 - games (retro) 
 - spiderverse style
-- japan
+- japan. oude tempels maar ook nieuwe cyberpunk style
   
 ### 31 aug - Kickoff
 
