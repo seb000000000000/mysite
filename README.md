@@ -6,6 +6,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 4 sept -
 
+testestest dit is een test
+
 ### 2 sept - [ziek thuis inplaats van workshop]
 
 ziek thuis, maar probeer thuis verder te komen, denk dat ik vscodium heb gekoppeld aan site maar denk dat ik iets fout heb gedaan want veranderingen worden niet door gevoerd.
