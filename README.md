@@ -4,16 +4,29 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 6 sept - [learning log bijgewerkt]
+
 ### 4 sept - [deep dive html/css en schetsen]
 
-in de html/css basis les veel geleerd over wat voor dingen je wel en niet moet gebruiken zoals divs en spans en basis opgefrist. ook achter gekomen dat java script het liefst zo min mogelijk gebruikt word dus dat ik een manier moet vinden om het in css te doen.
+in de html/css basis les veel geleerd over wat voor dingen je wel en niet moet gebruiken zoals divs en spans en basis opgefrist.
+
+ook achter gekomen dat java script het liefst zo min mogelijk gebruikt word dus dat ik een manier moet vinden om de mario dino game in css te maken.
+
 als vragen had ik in de les wat atom was en of we dat moesten gebruiken aangezien we al vs codium gebruiken en atom dan overbodig leek. en dat klopte, atom is gewoon een ander programma wat je mag gebruiken als je wilt.
+
+foto aantekeningen css in file ![alt text](image-1.png)
+
+schets les was ook leuk eerst oude schetsen geranked en gekeken naar wat een schets goed maakt, duidelijkheid, annotaties, lettertype schaduw en nog wat andere dingen. erna moesten we een site na schetsen wat ik wel een hele opdracht vond en wel goed was gelukt en leerden we hoe we een animatie konden laten zien in de schets door blauwe stippel lijnen. ![alt text](image.png)
+
+eind van de dag heeft laura mij nog geholpen om het digitale tuintje goed werkend te krijgen en nu zou alles het moeten doen
 
 ### 3 sept - [ziek thuis]
 
 wel geprobeerd thuis powerpoint te volgen van nicky, begreep het allemaal wel goed want was vooral herhaling van experimenteren met interactie.
 
-Heb toen thuis nog een youtube tutorial gevolgd over hoe je de chrome dino game moet maken, en zelf wat dingen aangepast om het richting mijn idee van mario te veranderen. https://www.youtube.com/watch?v=lgck-txzp9o
+- toen idee van mario game geprobeerd begin uit te werken door toen thuis nog een youtube tutorial te volgen over hoe je de chrome dino game moet maken, en zelf wat dingen aangepast om het richting mijn idee van mario te veranderen. https://www.youtube.com/watch?v=lgck-txzp9o ![alt text](image-2.png)
+
+- idee: miss iets met pokemon turn based battle ofzo maken als site
 
 ### 2 sept - [ziek thuis inplaats van workshop]
 
