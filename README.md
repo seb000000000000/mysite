@@ -4,9 +4,16 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-### 4 sept -
+### 4 sept - [deep dive html/css en schetsen]
 
-testestest dit is een test
+in de html/css basis les veel geleerd over wat voor dingen je wel en niet moet gebruiken zoals divs en spans en basis opgefrist. ook achter gekomen dat java script het liefst zo min mogelijk gebruikt word dus dat ik een manier moet vinden om het in css te doen.
+als vragen had ik in de les wat atom was en of we dat moesten gebruiken aangezien we al vs codium gebruiken en atom dan overbodig leek. en dat klopte, atom is gewoon een ander programma wat je mag gebruiken als je wilt.
+
+### 3 sept - [ziek thuis]
+
+wel geprobeerd thuis powerpoint te volgen van nicky, begreep het allemaal wel goed want was vooral herhaling van experimenteren met interactie.
+
+Heb toen thuis nog een youtube tutorial gevolgd over hoe je de chrome dino game moet maken, en zelf wat dingen aangepast om het richting mijn idee van mario te veranderen. https://www.youtube.com/watch?v=lgck-txzp9o
 
 ### 2 sept - [ziek thuis inplaats van workshop]
 
