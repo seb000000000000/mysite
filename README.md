@@ -36,9 +36,26 @@ wat wilt de schrijver van mij en wat is een digital garden?
 waar komen we samen op uit:
 de datum waarop je het post maakt niet uit, het is altijd in beweging, het hoeft niet goed te zijn, het is persoonlijk, je kan het aanpassen het is echt van jou en doet ermee wat jij wilt.
 
-erna websites gerieviewed
-websites : prin.lu en church basement.org
-niet beste sites maar laat wel zien wat mijn site wel moet hebben
+- erna websites gerieviewed
+  websites : prin.lu en church basement.org
+  niet beste sites maar laat wel zien wat mijn site wel moet hebben
+
+beste site d00k.net
+
+slechste site vit.baisa.cz
+
+check out:
+Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
+
+de datum waarop je het post maakt niet uit, het is altijd in beweging, het hoeft niet goed te zijn, het is persoonlijk, je kan het aanpassen het is echt van jou en doet ermee wat jij wilt.
+
+Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
+
+sixey.es een site die casper bezocht en was heel gepersonaliseerd met leuke interactie dus die inspireerd mij het meest.
+
+wat een site webby maakt is fluide, interactie,toegankelijkheid, volwassen, expressief
+
+Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
 
 ### 6 sept - [learning log bijgewerkt]
 
