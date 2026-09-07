@@ -53,9 +53,22 @@ Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspirere
 
 sixey.es een site die casper bezocht en was heel gepersonaliseerd met leuke interactie dus die inspireerd mij het meest.
 
-wat een site webby maakt is fluide, interactie,toegankelijkheid, volwassen, expressief
+wat een site webby maakt is fluide, interactie,toegankelijkheid, volwassen, expressie en verrassing.
 
 Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
+
+een site maken met dingen die ik cool vind
+
+hoofd idee: een site maken met verschillende games zoals mario en pokemon, een animatie toevoegen en met de light en dark mode alles in een zwart witte manga stijl kan veranderen
+
+andere intresses voor de site maar nog zonder concreet idee:
+
+- mythologie (grieks en noors)
+- anime/manga
+- games (retro)
+- spiderverse style
+- japan. oude tempels maar ook nieuwe cyberpunk style
+- gitaar spiderpunk style
 
 ### 6 sept - [learning log bijgewerkt]
 
