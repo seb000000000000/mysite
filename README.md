@@ -4,6 +4,42 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 7 sept - [ les]
+
+- in de les tekst gelezen over wat een digital garden is
+
+zelf heb ik "A brief history en ethos of the digital garden" gelezen
+
+het ging over 6 basis principes van de digital garden
+
+1 typografie en tyme lines,
+wat gaat over dat de publishing dates niet uitmaken en je alles kan doen wat en wanneer je wilt
+
+2 continues growth '
+het is altijd in beweging en houd je niet tegen om wat dingen te proberen en forceerd je niet om het gelijk goed te doen '
+'
+3 imperfection en learning in public
+het is puur voor je zelf en hoeft niemand ergens van te overtuigen waardoor het eerlijk word
+en mensen zien je progressie waardoor het persoonlijker is dan als je tegen een expert praat
+
+4 playful personal experimental
+het is puur van jou en je kan er mee doen wat je wilt, zolang je experimenteerd met html css heb je alle vrijheid die je wilt
+
+5 intercropping and content diversity
+de content is van audio to film tot blogs tot boeken tijdschriften van alles waardoor het divers en persoonlijk is
+
+6 independend ownership
+het is echt van jou in tegenstelling tot dingen zoals insta
+
+wat wilt de schrijver van mij en wat is een digital garden?
+
+waar komen we samen op uit:
+de datum waarop je het post maakt niet uit, het is altijd in beweging, het hoeft niet goed te zijn, het is persoonlijk, je kan het aanpassen het is echt van jou en doet ermee wat jij wilt.
+
+erna websites gerieviewed
+websites : prin.lu en church basement.org
+niet beste sites maar laat wel zien wat mijn site wel moet hebben
+
 ### 6 sept - [learning log bijgewerkt]
 
 ### 4 sept - [deep dive html/css en schetsen]
