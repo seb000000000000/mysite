@@ -70,6 +70,8 @@ andere intresses voor de site maar nog zonder concreet idee:
 - japan. oude tempels maar ook nieuwe cyberpunk style
 - gitaar spiderpunk style
 
+en aangezien mijn site sebbb heet misschien iets doen met bbb inplaats van AAA wat gebruikt word om goede kwaliteit games aan te geven
+
 ### 6 sept - [learning log bijgewerkt]
 
 ### 4 sept - [deep dive html/css en schetsen]
