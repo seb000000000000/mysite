@@ -4,6 +4,22 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 8 sept - [ presentatie voorbereiden en light dark mode les]
+
+word bestand aangemaakt met allemaal plaatjes en links en bedenken wat ik precies wil doen, ik dacht wel aan een zwart wit modus maar kon voor de rest niet echt een goed onderwerp/overlappend idee vinden, ik heb uiteindelijk bedacht om het mario idee te laten vallen en voledig te focussen op de zwart wit modus aangezien dat is wat veel van de intresses gemeen hebben dus wil ik laten zien hoe de online wereld in zwart wit verandert en wat je kan doen om het aantrekkelijk te houden.
+
+onderwerpen:
+
+- spiderverse + spider noir, zwart wit
+- pokemon begon ooit in zwart wit en heeft een black and white game
+- ghost of tsushima heeft een kurosawa mode waarin je de game in zwart wit speelt als in een jaren 50 samurai modus van de director kurosawa
+- god of war krijgt na dat je de game 1 keer hebt uitgespeeld een new game+ modus waarin je de game nog een keer in zwart wit kan spelen voor een andere look
+- anime is in kleur en manga is in zwart wit
+- jing en jang als symbool om naar zwart wit modus te switchen
+- waterverf japanse zwart witte bergen met rode maan
+
+nu bezig met presentatie html uitvinden
+
 ### 7 sept - [ les]
 
 - in de les tekst gelezen over wat een digital garden is
