@@ -11,4 +11,11 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
+
+  background-image: conic-gradient(
+    at 90% 20%,
+    rgb(255, 0, 102),
+    rgb(255, 136, 0),
+    rgb(83, 0, 128)
+  );
 }
