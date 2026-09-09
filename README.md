@@ -71,6 +71,7 @@ Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder 
 het idee van de bergen en de stad die switchen lijkt mij het coolst maar ook moeilijk in css
 
 vandaag ook in miro gewerkt wat ik wel een leuke manier van leskrijgen vond
+hier is mijn miro board https://miro.com/app/board/uXjVHpsXBFw=/?moveToWidget=3458764683000762968&cot=14
 
 ### 8 sept - [ presentatie voorbereiden en light dark mode les]
 
