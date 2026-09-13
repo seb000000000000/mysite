@@ -6,6 +6,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 13 sept - [ thuis verder met procreate animatie vvoor site]
 
+vandaag heel veel geanimeerd, en in html css gegooid en het daar weer verder geanimeerd, ook andere afbeeldingen toegevoegd met links naar sites allees neemt de link nu de hele pagina in beslag omdat is width 100vw heb gebruikt maar weet niet hoe ik hem op een andere maniet op de goede plek krijg, ook heb ik h1 h2 voor afbeeldingen gebruikt dus moet even vra=gen hoe ik dat anders moet opschrijven want dit lijkt mij n iet goed
+
 ### 11 sept - [ les en deepdive]
 
 Nieuw idee
