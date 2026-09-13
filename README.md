@@ -4,6 +4,22 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 13 sept - [ thuis verder met procreate animatie vvoor site]
+
+### 11 sept - [ les en deepdive]
+
+Nieuw idee
+
+Niet spiderman of ronin die daar zit maar gewoon ik, je ziet interactieve dingen dus die pokemon batlle of een manga tijdschrift naast mij en in de bergen nnoorse runes en kleine hints naar dingen die ik cool vind bijv arasaka cyberpunk toren in stad (kan interactief hoeft niet) of in bergen 9tails of itachi silhouet ofzo spiderman masket kan uit rigzak hangen ofzo of naruto hokage cape aan wasrek of luffy hoed ergens, 999 juice wrld ergen (wellicht in graffiti) r2d2
+
+Scan knop dat er groenig filter overheen gaat en easter eggs gele omlijning krijgen zodat je ze goed kan vinden en als je er op tikt uitleg
+
+gekeken naar werk en nieuwe concept doorgevoerd, met sanne gekeken naar animaties en uitleg over gekregen en ga daar nu wel veel mee kunnen.
+
+begonnen met animatie in procreate en ga dat nu kunnen koppelien met css
+
+in deepdive gekeken naar hoe grid werkt, oefening 1 met de tekst vakken was goed te doen maar de oefening met de fis had ik wel moeite mee. wel veel geleerd van hoe een grid werkt van de uitleg van Sanne.
+
 ### 10 sept - [ weinig tijd door werk]
 
 5 telefoon schetsen maken ging eigenlijk best goed want tijdens het telefoon schetsen heb ik een nieuwe manier bedacht om het te displayen, fotos: <img src="img/tel 1.jpeg"> <img src="img/tel 2.jpeg"> nummer 5 is op dit moment mijn favoriet/hoofd idee.

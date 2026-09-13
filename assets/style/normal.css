@@ -11,11 +11,93 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
+  margin: 0;
+  overflow: hidden;
+}
 
-  background-image: conic-gradient(
-    at 90% 20%,
-    rgb(255, 0, 102),
-    rgb(255, 136, 0),
-    rgb(83, 0, 128)
-  );
+h1 img {
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+  object-fit: cover;
+}
+h2 img {
+  position: fixed;
+  width: 50em;
+  top: 8%;
+
+  animation-name: --vikingschip-animatie;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes --vikingschip-animatie {
+  0% {
+    translate: -50vw;
+  }
+  7% {
+    translate: -37vw;
+  }
+  15% {
+    translate: -25vw;
+    animation-timing-function: ease-in-out;
+  }
+  23% {
+    translate: -13vw;
+    animation-timing-function: ease-in-out;
+  }
+  30% {
+    translate: -0vw;
+    animation-timing-function: ease-in-out;
+  }
+  37% {
+    translate: 13vw;
+    animation-timing-function: ease-in-out;
+  }
+  45% {
+    translate: 25vw;
+    animation-timing-function: ease-in-out;
+  }
+  53% {
+    translate: 37vw;
+    animation-timing-function: ease-in-out;
+  }
+  60% {
+    translate: 50vw;
+    animation-timing-function: ease-in-out;
+  }
+  67% {
+    translate: 63vw;
+    animation-timing-function: ease-in-out;
+  }
+  75% {
+    translate: 75vw;
+    animation-timing-function: ease-in-out;
+  }
+  87% {
+    translate: 87vw;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    translate: 100vw;
+  }
+}
+h3 img {
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+  object-fit: cover;
+}
+
+h4 img {
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+  object-fit: cover;
+}
+a img {
+  position: fixed;
+  width: 100dvw;
+  height: 100dvh;
+  object-fit: cover;
 }
