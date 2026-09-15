@@ -4,6 +4,26 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 14 sept - [op school geholpen met vragen tijdens de les en onderzoeks methodes behandeld]
+
+eerst vragen gekregen daar extra vragen op bedenken en bedenken met welke onderzoekt methode je op die vragen kan antwoorden.
+
+toen naar lokaal en geholpen met wat vragen:
+
+- zwarte balk boven de image hoe krijg ik dat weg?
+  met casper wat dingen geprobeerd en uiteindelijk met top 0% gefixt
+- images waren veel te groot en namen hele scherm in dus overal ging naar een link behalve op sommige momenten.
+  met isabeau gekeken naar hoe dat kan en image was heel groot en blockte link van andere image.  
+  ook canvas in procreate kleiner gemaakt en opnieuw geexporteerd waardoor niet alles meer een link is en de vraag is opgelost, maar daardoor nieuwe vraag:
+- hoe krijg ik images op de goede plek en vooral dat het responsive is?
+  zelf met procenten geprobeerd maar schoof nogsteeds nu met calc responsive gemaakt
+- met de bewegende animatie moest het op een andere manier dus met sanne gekeken naar hoe dat moet, vervolgens ook op alle andere frames toegepast zodat hij helemaal responsive is.
+- hoe moet je images apart stijlen zonder classes, id, h1 h2?
+  door nth of type te gebruiken
+
+  check out:
+  als het niet meer leesbaar is en dingen raar verspringen
+
 ### 13 sept - [ thuis verder met procreate animatie vvoor site]
 
 vandaag heel veel geanimeerd, en in html css gegooid en het daar weer verder geanimeerd, ook andere afbeeldingen toegevoegd met links naar sites allees neemt de link nu de hele pagina in beslag omdat is width 100vw heb gebruikt maar weet niet hoe ik hem op een andere maniet op de goede plek krijg, ook heb ik h1 h2 voor afbeeldingen gebruikt dus moet even vra=gen hoe ik dat anders moet opschrijven want dit lijkt mij n iet goed
