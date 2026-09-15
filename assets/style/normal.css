@@ -111,19 +111,6 @@ body > img:nth-of-type(1) {
   left: 0;
 }
 
-a img {
-  z-index: 35;
-  position: fixed;
-  left: calc(50% - 7.8rem);
-  bottom: 59%;
-  object-fit: cover;
-  width: 19rem;
-
-  @media (width > 87em) {
-    bottom: 61%;
-  }
-}
-
 button:nth-of-type(1) {
   img {
     z-index: 50;
@@ -183,6 +170,38 @@ article {
   background-color: rgb(255 255 255 / 0.25);
   backdrop-filter: blur(0.25em);
 
+  @media (width<50em) {
+    width: auto;
+    height: auto;
+    margin: 5rem;
+  }
+}
+button:nth-of-type(4) {
+  img {
+    z-index: 35;
+    position: fixed;
+    left: calc(50% - 7.8rem);
+    bottom: 59%;
+    object-fit: cover;
+    width: 19rem;
+
+    @media (width > 87em) {
+      bottom: 61%;
+    }
+  }
+}
+article {
+  width: 30em;
+  height: 30em;
+  padding: 3em;
+  border-radius: 3em;
+  background-color: rgb(255 255 255 / 0.25);
+  backdrop-filter: blur(0.25em);
+
+  img {
+    width: auto;
+    height: 20em;
+  }
   @media (width<50em) {
     width: auto;
     height: auto;
