@@ -4,6 +4,36 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 16 sept - [op school]
+
+vandaag hebben we uitleg van diederik gekregen over gestalt principes en over symetrie en andere dingen, erna hebben we voor elkaar geschetst en elkaar geholpen om op ideeen te komen over hoe je dingen zou kunnen displayen. <img src="img/schetsenvananderevoormij.jpg">
+
+erna kregen tijd om even te werken aan onze site en waren er latere jaars studenten en sanne en diederik er bij om ons te helpen als dingen niet lukte. met sanne gekeken naar hoe je de light dark mode aan en uit zet met een toggle (hij was hier eigenlijk tegen) na veel geklooi lukte het na de uitleg niet helemaal om het werken te krijgen (ook niet met de hulp van hogere jaars student) dus toen weer naar sanne gegaan en de oplossing was om de link te refreshen en om de image te veranderen moest je het als background image doen dus dat is nu gelukt, een andere vraag waar hij mij ook mee heelft geholpen is hoe je geluid toevoegd wat je aan en uit kan toggelen er was wel javascript voor nodig maar dat was eigenlijk redelijk simpel, erna heb ik zelf ook nog een nieuw geteknde afbeelding toegevoegd en dus de light dark switch gecustomized dat het geen lelijke knop is, voor de rest ga ik nu de readme bijwerken van de dingen die ik erin ben vergeten te zetten en de lijst doorlopen om te checken of ik aan alle eisen voldoe.
+
+Check-out
+
+    Noem 3 Gestalt- of Design principes op en laat de ander uitleggen wat ze betekenen en doen.
+
+3 design principes:
+
+symetrie: maakt het rustig maar hoeft niet saai te zijn met die vershillende soorten symetrie, zie nu dat dat balans heet.
+
+vorm/restvorm: dat door lijnen dichtbij elkaar zetten je vormen creeert en mensen er dingen in gaan kunnen zien/herkennen.
+
+ingevulde hiaat: dat je door restvormen/silhouttes/gestalt het dingen intressanter maakt omdat het het belangrijkste uitlicht.
+
+    Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?
+
+een grid zorgt ervoor dat je rond kan spelen in het grid maar doordat het allemaal gebasseerd is op het zelfde grid/lijnen is er ook altijd nog iets van structuur aanwezig
+
+    Welk principe neem je mee in een laatste iteratie van je eigen Garden?
+
+heel misschien neem ik een grid mee in mijn popover maar doordat mijn idee best wel specifiek iis gaat een grid daar niet echt lekker mee helpen
+
+### 15 sept - [thuis popovers met images en tekst toe gevoegd]
+
+thuis gekeken naar hoe je popovers moet toevoegen en hoe je die er dan in stijlt en eigenlijk de hele dag mee geklooid.
+
 ### 14 sept - [op school geholpen met vragen tijdens de les en onderzoeks methodes behandeld]
 
 eerst vragen gekregen daar extra vragen op bedenken en bedenken met welke onderzoekt methode je op die vragen kan antwoorden.
@@ -21,8 +51,19 @@ toen naar lokaal en geholpen met wat vragen:
 - hoe moet je images apart stijlen zonder classes, id, h1 h2?
   door nth of type te gebruiken
 
-  check out:
-  als het niet meer leesbaar is en dingen raar verspringen
+  Check-out
+
+  Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+
+als er geen overeenkomst is tussen de stijling
+
+    Vertel welke volgende stap je neemt om je website responsive te maken.
+
+de dark mode accesible te maken door een switch toe te voegen en te zorgen dat de afbeeldingen niet verplaatsen
+
+    Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
+
+ik heb gekozen om te focussen op een expresieve garden met de verassing door er kleine dingen zoals muziek toe te voegen ook probeer ik het responsive te maken door het goed mee te laten bewegen (met mediaquireies < 40em) als de grote van het beeld verandert, ik weet niet hoe volwassen het is aangezien er afbeeldingen van het web zijn gepakt en ik niet weet wat daar wettelijk de regels over zijn. ik heb het idee dat ik er een mis maar weet ze niet uit mijn hoofd
 
 ### 13 sept - [ thuis verder met procreate animatie vvoor site]
 
@@ -41,6 +82,14 @@ gekeken naar werk en nieuwe concept doorgevoerd, met sanne gekeken naar animatie
 begonnen met animatie in procreate en ga dat nu kunnen koppelien met css
 
 in deepdive gekeken naar hoe grid werkt, oefening 1 met de tekst vakken was goed te doen maar de oefening met de fis had ik wel moeite mee. wel veel geleerd van hoe een grid werkt van de uitleg van Sanne.
+
+    Checkout
+
+    De checkout van vandaag bestaat uit een vraag:
+
+    Welke feedback heb je gehad?
+
+niet heel specifiek feedback gehad van sanne, hij heeft vooral uitgelegd hoe je kleur transparant maakt en hoe je een animatie maakt omdat ik dat wilde weten. hij was benieuwd hoe mijn site zou worden.
 
 ### 10 sept - [ weinig tijd door werk]
 
@@ -90,7 +139,9 @@ Ik wil mijn Digital Garden laten gaan over.... kleur/zwart wit en hoe je een spr
 
 en wil dat laten zien door …………………………….een ying yang te maken wat een schakelaar is waarmee je alle content aanpast.
 Ik begin met een stukje eigen content over …………………….…een pokemon battle die hopelijk interactief is. ​
-Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door …....een scroll funtie te maken waarmee je over een stad beweegt of over bergen beweegd (afhankelijk van mode) waarin je dan ook andere dingen kan bezoeken zoals een mediterende ronin of een spiderman die door de stad slingert
+Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door …....een scroll funtie te maken waarmee je over een stad beweegt of over bergen beweegd (afhankelijk van mode) waarin je dan ook andere dingen kan bezoeken zoals een mediterende ronin of een spiderman die door de stad slingert.
+
+Check-out
 
     Leg uit waar het Visual Research in 3 stappen naartoe werkt
 
@@ -171,18 +222,18 @@ beste site d00k.net
 
 slechste site vit.baisa.cz
 
-check out:
-Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
+    Check-out
+    Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
 
 de datum waarop je het post maakt niet uit, het is altijd in beweging, het hoeft niet goed te zijn, het is persoonlijk, je kan het aanpassen het is echt van jou en doet ermee wat jij wilt.
 
-Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
+    Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
 
 sixey.es een site die casper bezocht en was heel gepersonaliseerd met leuke interactie dus die inspireerd mij het meest.
 
 wat een site webby maakt is fluide, interactie,toegankelijkheid, volwassen, expressie en verrassing.
 
-Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
+    Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.)
 
 een site maken met dingen die ik cool vind
 

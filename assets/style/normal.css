@@ -10,10 +10,6 @@
 
 html {
   color-scheme: light dark;
-
-  --bg: light-dark(pink, rebeccapurple);
-  --clr: light-dark(black, white);
-
   background-image: light-dark(
     url("../../img/eigenstad.png"),
     url("../../img/eigenstad3.png")
@@ -23,6 +19,31 @@ html {
 
   background-size: cover;
   background-position: center center;
+}
+/*styling img en article in popover*/
+article {
+  width: 30em;
+  height: 30em;
+  padding: 3em;
+  border-radius: 3em;
+  background-color: rgb(255 255 255 / 0.25);
+  backdrop-filter: blur(0.25em);
+
+  img {
+    width: auto;
+    height: 40dvw;
+    @media (width > 50em) {
+      height: 20em;
+    }
+  }
+  li {
+    font-weight: bold;
+  }
+  @media (width<50em) {
+    width: auto;
+    height: auto;
+    margin: 5rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,12 +55,6 @@ html {
 @media (prefers-color-scheme: light) {
   label:has([value="light"]) {
     display: block;
-  }
-}
-
-picture {
-  img {
-    opacity: 0;
   }
 }
 
@@ -67,27 +82,36 @@ html:has([value="dark"]:checked) label:has([value="dark"]) {
 html:has([value="dark"]:checked) label:has([value="light"]) {
   display: block;
 }
-
+input[type="radio"] {
+  display: none;
+}
 label {
   z-index: 40;
   position: fixed;
-  bottom: 40%;
-  left: calc(50% - 10rem);
-  width: 1%;
+  bottom: 75%;
+  left: calc(50% - 13rem);
+  @media (width > 85em) {
+    left: calc(50% - 14.3rem);
+    bottom: 78%;
+  }
+  img {
+    width: 2em;
+  }
 }
 
 /* ALGEMENE STYLING */
 
 button {
   cursor: pointer;
+  background: none;
+  border: none;
 }
 
 /* WRAPPERS */
 
 body {
-  font-family: "Comic Relief", system-ui;
+  font-family: "Lacquer", system-ui;
   margin: 0;
-  overflow: hidden;
 }
 
 /* STAD */
@@ -130,43 +154,33 @@ button:nth-of-type(3) {
   }
   15% {
     translate: calc((100dvw + 11rem) * -0.25);
-    animation-timing-function: ease-in-out;
   }
   23% {
     translate: calc((100dvw + 11rem) * -0.13);
-    animation-timing-function: ease-in-out;
   }
   30% {
     translate: calc((100dvw + 11rem) * 0);
-    animation-timing-function: ease-in-out;
   }
   37% {
     translate: calc((100dvw + 11rem) * 0.13);
-    animation-timing-function: ease-in-out;
   }
   45% {
     translate: calc((100dvw + 11rem) * 0.25);
-    animation-timing-function: ease-in-out;
   }
   53% {
     translate: calc((100dvw + 11rem) * 0.37);
-    animation-timing-function: ease-in-out;
   }
   60% {
     translate: calc((100dvw + 11rem) * 0.5);
-    animation-timing-function: ease-in-out;
   }
   67% {
     translate: calc((100dvw + 11rem) * 0.63);
-    animation-timing-function: ease-in-out;
   }
   75% {
     translate: calc((100dvw + 11rem) * 0.75);
-    animation-timing-function: ease-in-out;
   }
   87% {
     translate: calc((100dvw + 11rem) * 0.87);
-    animation-timing-function: ease-in-out;
   }
   100% {
     translate: calc((100dvw + 11rem) * 1);
@@ -244,28 +258,16 @@ button:nth-of-type(5) {
   }
 }
 
-/*styling img en article in popover*/
-article {
-  width: 30em;
-  height: 30em;
-  padding: 3em;
-  border-radius: 3em;
-  background-color: rgb(255 255 255 / 0.25);
-  backdrop-filter: blur(0.25em);
-
+button:nth-of-type(6) {
   img {
-    width: auto;
-    height: 40dvw;
-    @media (width > 50em) {
-      height: 20em;
+    z-index: 40;
+    position: fixed;
+    bottom: 25%;
+    left: calc(50% - 5.2rem);
+    width: 6rem;
+    @media (width > 87em) {
+      bottom: 24%;
+      left: calc(50% - 5.4rem);
     }
-  }
-  li {
-    font-weight: bold;
-  }
-  @media (width<50em) {
-    width: auto;
-    height: auto;
-    margin: 5rem;
   }
 }
