@@ -6,9 +6,86 @@
   font-style: normal;
 }
 
+/* KLEURTJES */
+
+html {
+  color-scheme: light dark;
+
+  --bg: light-dark(pink, rebeccapurple);
+  --clr: light-dark(black, white);
+
+  background-image: light-dark(
+    url("../../img/eigenstad.png"),
+    url("../../img/eigenstad3.png")
+  );
+
+  min-height: 100dvh;
+
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (prefers-color-scheme: dark) {
+  label:has([value="dark"]) {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  label:has([value="light"]) {
+    display: block;
+  }
+}
+
+picture {
+  img {
+    opacity: 0;
+  }
+}
+
+html:has([value="light"]:checked) {
+  color-scheme: light;
+}
+
+html:has([value="light"]:checked) label:has([value="dark"]) {
+  display: block;
+}
+
+html:has([value="light"]:checked) label:has([value="light"]) {
+  display: none;
+}
+
+/* als er dark gekozen is */
+html:has([value="dark"]:checked) {
+  color-scheme: dark;
+}
+
+html:has([value="dark"]:checked) label:has([value="dark"]) {
+  display: none;
+}
+
+html:has([value="dark"]:checked) label:has([value="light"]) {
+  display: block;
+}
+
+label {
+  z-index: 40;
+  position: fixed;
+  bottom: 40%;
+  left: calc(50% - 10rem);
+  width: 1%;
+}
+
+/* ALGEMENE STYLING */
+
+button {
+  cursor: pointer;
+}
+
+/* WRAPPERS */
+
 body {
   font-family: "Comic Relief", system-ui;
-  color-scheme: light dark;
   margin: 0;
   overflow: hidden;
 }
@@ -19,9 +96,7 @@ picture {
   position: fixed;
   width: 100dvw;
   height: 100dvh;
-  object-fit: cover;
   top: 0%;
-
   img {
     display: block;
     width: 100%;
@@ -48,59 +123,60 @@ button:nth-of-type(3) {
 
 @keyframes --vikingschip-animatie {
   0% {
-    translate: calc((100dvw + 11em) * -0.5);
+    translate: calc((100dvw + 11rem) * -0.5);
   }
   7% {
-    translate: calc((100dvw + 11em) * -0.37);
+    translate: calc((100dvw + 11rem) * -0.37);
   }
   15% {
-    translate: calc((100dvw + 11em) * -0.25);
+    translate: calc((100dvw + 11rem) * -0.25);
     animation-timing-function: ease-in-out;
   }
   23% {
-    translate: calc((100dvw + 11em) * -0.13);
+    translate: calc((100dvw + 11rem) * -0.13);
     animation-timing-function: ease-in-out;
   }
   30% {
-    translate: calc((100dvw + 11em) * 0);
+    translate: calc((100dvw + 11rem) * 0);
     animation-timing-function: ease-in-out;
   }
   37% {
-    translate: calc((100dvw + 11em) * 0.13);
+    translate: calc((100dvw + 11rem) * 0.13);
     animation-timing-function: ease-in-out;
   }
   45% {
-    translate: calc((100dvw + 11em) * 0.25);
+    translate: calc((100dvw + 11rem) * 0.25);
     animation-timing-function: ease-in-out;
   }
   53% {
-    translate: calc((100dvw + 11em) * 0.37);
+    translate: calc((100dvw + 11rem) * 0.37);
     animation-timing-function: ease-in-out;
   }
   60% {
-    translate: calc((100dvw + 11em) * 0.5);
+    translate: calc((100dvw + 11rem) * 0.5);
     animation-timing-function: ease-in-out;
   }
   67% {
-    translate: calc((100dvw + 11em) * 0.63);
+    translate: calc((100dvw + 11rem) * 0.63);
     animation-timing-function: ease-in-out;
   }
   75% {
-    translate: calc((100dvw + 11em) * 0.75);
+    translate: calc((100dvw + 11rem) * 0.75);
     animation-timing-function: ease-in-out;
   }
   87% {
-    translate: calc((100dvw + 11em) * 0.87);
+    translate: calc((100dvw + 11rem) * 0.87);
     animation-timing-function: ease-in-out;
   }
   100% {
-    translate: calc((100dvw + 11em) * 1);
+    translate: calc((100dvw + 11rem) * 1);
   }
   113% {
-    translate: calc((100dvw + 11em) * 1.13);
+    translate: calc((100dvw + 11rem) * 1.13);
   }
 }
 
+/*zittend persoon*/
 body > img:nth-of-type(1) {
   position: fixed;
   z-index: 20;
@@ -110,14 +186,13 @@ body > img:nth-of-type(1) {
   top: 0;
   left: 0;
 }
-
+/*xxx graffiti*/
 button:nth-of-type(1) {
   img {
     z-index: 50;
     position: fixed;
     right: calc(50% - 16.3rem);
     bottom: 0rem;
-    object-fit: cover;
     width: 3.3rem;
     @media (width > 87em) {
       bottom: -2.6rem;
@@ -126,14 +201,13 @@ button:nth-of-type(1) {
     }
   }
 }
-
+/*999 graffiti*/
 button:nth-of-type(2) {
   img {
     z-index: 30;
     position: fixed;
     right: calc(50% - 13.2rem);
     bottom: -0.7rem;
-    object-fit: cover;
     width: 6.5rem;
 
     @media (width > 87em) {
@@ -143,7 +217,7 @@ button:nth-of-type(2) {
     }
   }
 }
-
+/*pokemon tower*/
 button:nth-of-type(4) {
   img {
     z-index: 35;
@@ -158,6 +232,19 @@ button:nth-of-type(4) {
     }
   }
 }
+
+/*muziekding*/
+button:nth-of-type(5) {
+  img {
+    z-index: 40;
+    position: fixed;
+    bottom: 0%;
+    left: calc(50% - 12.5rem);
+    width: 9rem;
+  }
+}
+
+/*styling img en article in popover*/
 article {
   width: 30em;
   height: 30em;
@@ -168,7 +255,10 @@ article {
 
   img {
     width: auto;
-    height: 20em;
+    height: 40dvw;
+    @media (width > 50em) {
+      height: 20em;
+    }
   }
   li {
     font-weight: bold;
