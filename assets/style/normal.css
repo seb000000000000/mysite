@@ -1,6 +1,6 @@
 /* HIER KOMT JOUW CSS */
 @font-face {
-  font-family: "Comic Relief";
+  font-family: "comic style";
   src: url(../type/ComicRelief-Regular.woff2);
   font-weight: 400;
   font-style: normal;
@@ -12,15 +12,15 @@ html {
   color-scheme: light dark;
   background-image: light-dark(
     url("../../img/eigenstad.png"),
-    url("../../img/eigenstad3.png")
+    /* shot uit sunflower gepakt, (via licence free site) toen zelf via chat gpt spiderman er uit gehaald en kleuren warmer/exremer gemaakt */
+    url("../../img/eigenstad3.png") /* toen img met filter zwart wit gemaakt*/
   );
-
+  /* light dark met sanne gedaan, ik ben er wel achter gekomen dat nu na deze verandering op telefoon de achtergrond weggaat maar heb dat nog niet zelf weten te fixen, sinds de light dark mode ook de letterkleur niet meer kunnen veranderen */
   min-height: 100dvh;
-
   background-size: cover;
   background-position: center center;
 }
-/*styling img en article in popover*/
+/*styling img en article in popovers hier*/
 article {
   width: 30em;
   height: 30em;
@@ -39,13 +39,18 @@ article {
   li {
     font-weight: bold;
   }
-  @media (width<50em) {
+  @media (width<30em) {
     width: auto;
     height: auto;
-    margin: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding: 2em;
   }
 }
 
+/* sanne heeft geholpen met de light dark code om het een toggle te maken */
 @media (prefers-color-scheme: dark) {
   label:has([value="dark"]) {
     display: none;
@@ -57,7 +62,7 @@ article {
     display: block;
   }
 }
-
+/* als er light gekozen is */
 html:has([value="light"]:checked) {
   color-scheme: light;
 }
@@ -85,6 +90,23 @@ html:has([value="dark"]:checked) label:has([value="light"]) {
 input[type="radio"] {
   display: none;
 }
+
+/* WRAPPERS */
+
+body {
+  font-family: "comic style", sans-serif;
+  margin: 0;
+}
+
+/* ALGEMENE button styling */
+
+button {
+  cursor: pointer;
+  background: none; /* background en border weggehaald omdat je ze anders links boven in beeld heel klein allemaal zag*/
+  border: none;
+}
+
+/* styling ying yang hier gezet zodat hij dicht bij de light dark mode styling staat*/
 label {
   z-index: 40;
   position: fixed;
@@ -97,21 +119,6 @@ label {
   img {
     width: 2em;
   }
-}
-
-/* ALGEMENE STYLING */
-
-button {
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
-/* WRAPPERS */
-
-body {
-  font-family: "Lacquer", system-ui;
-  margin: 0;
 }
 
 /* STAD */
@@ -127,10 +134,11 @@ picture {
     height: 100%;
     object-fit: cover;
   }
-}
+} /* ik dacht dat deze weg kon na dat ik de img heb replaced voor background image en daar boven nieuwe stijling voor heb maar als ik de code weghaal klopt de uitlijning niet meer dus laat ik het toch maar hier */
 
 /* BOOT */
 button:nth-of-type(3) {
+  /* van sanne hulp gekregen over basis van animatie toen zelf gekeken naar hoe ik schommel effect kan toevoegen */
   img {
     z-index: 40;
     position: fixed;
@@ -208,6 +216,7 @@ button:nth-of-type(1) {
     right: calc(50% - 16.3rem);
     bottom: 0rem;
     width: 3.3rem;
+
     @media (width > 87em) {
       bottom: -2.6rem;
       right: calc(50% - 18rem);
@@ -257,7 +266,7 @@ button:nth-of-type(5) {
     width: 9rem;
   }
 }
-
+/*luffy straw hat*/
 button:nth-of-type(6) {
   img {
     z-index: 40;
@@ -271,3 +280,4 @@ button:nth-of-type(6) {
     }
   }
 }
+/* veel @media toegevoegd om te zorgen dat het in kleiner scherm op de goede plek is maar zodat het ook in fullscreen goed staat (alles deed het ook op telefoon maar sinds ik met sanne light dark mode heb toegevoegd is de achtergrond op telefoon weg en het is mij nog niet gelukt dit te herstellen)*/

@@ -4,6 +4,14 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 17 sept - [ font aangepast]
+
+had eerst een google font zoals in b lok 2 jaar 1 maar kwam erachter dat het met font face moet dus nu via font face font maken
+
+fonts van google teruggezet en toch maar gewoon comic font gebruikt omdat ik die het best vond passen van de font faces (voor hoever ik weet heb ik niet heel veel font faces kunnen vinden online)
+
+(heb de css en fonts enzo ook gewoon in style gelaten, dat was waar die in de basis van justus stond dus denk dat dat prima is toch? zo niet zal ik gewoon een mapje css maken en hem daar in zetten maar zag daar de toegevoegde waarde niet echt van in)
+
 ### 16 sept - [op school]
 
 vandaag hebben we uitleg van diederik gekregen over gestalt principes en over symetrie en andere dingen, erna hebben we voor elkaar geschetst en elkaar geholpen om op ideeen te komen over hoe je dingen zou kunnen displayen. <img src="img/schetsenvananderevoormij.jpg">
@@ -29,6 +37,8 @@ een grid zorgt ervoor dat je rond kan spelen in het grid maar doordat het allema
     Welk principe neem je mee in een laatste iteratie van je eigen Garden?
 
 heel misschien neem ik een grid mee in mijn popover maar doordat mijn idee best wel specifiek iis gaat een grid daar niet echt lekker mee helpen
+
+light dark met sanne gedaan, ik ben er wel achter gekomen dat nu na deze verandering op telefoon de achtergrond weggaat maar heb dat nog niet zelf weten te fixen, sinds de light dark mode ook de letterkleur niet meer kunnen veranderen dus ga dat ook nog even aan sanne moeten vragen hoe dat komt.
 
 ### 15 sept - [thuis popovers met images en tekst toe gevoegd]
 
