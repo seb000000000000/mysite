@@ -4,6 +4,27 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 18 sept - [ terug kijken op afgelopen weken]
+
+<img src="img/grafiek.jpeg">
+<img src="img/vogelkrulschets.jpeg">
+<img src="img/ranking.jpg">
+<img src="img/eerste2wekentekening.jpeg">
+
+gesprek sanne:
+miste nog iets waar ik uitleg wat je ziet zoals sebs intresses ofzo
+
+miste nog componenten ookal kwam ik er later achter dat ikk wel een component had van het vikingschip voor de animatie
+
+ook is de gestalt principes niet ingevult wat ik begrijp omdat mijn site niet echt gestalt principes gebruikt maar het is in mijn site ook wel lastig om dat toe te passen ookal is er wel na gedacht over matchende kleuren
+
+verder vond hij en de hulp student het een mooie site
+
+    Checkout:
+    Vragen en termen
+
+    Waarom geven de docenten deze opdracht?
+
 ### 17 sept - [ font aangepast]
 
 had eerst een google font zoals in b lok 2 jaar 1 maar kwam erachter dat het met font face moet dus nu via font face font maken
