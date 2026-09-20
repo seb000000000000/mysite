@@ -4,6 +4,157 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 20 sept - [checkout maken zodat ik er de tijd voor heb]
+
+Checkout:
+Vragen en termen
+
+Oriënteren en begrijpen
+
+    Waarom geven de docenten deze opdracht?
+
+-zodat je op een leuke manier html en css leert te gebruiken/schrijven
+
+    Welke technieken gebruik ik?
+
+-he leert html en css te gebruiken voor de inhoud en opmaak van je site, zoals hoe je in css kan animeren, hoe je linkjes gebruikt, hoe je popovers maakt, hoe je een light dark mode maakt, hoe je items op de goed plek krijgt, en je het op meerdere devices kan gebruiken
+
+    Wat zijn de randvoorwaarden?
+
+-ik weet niet of het aan privacyvoorwaarde en de wet voeldoet maar daar hebben we ook weinig uitleg over gekregen voor de rest zou ik het als webby beschouwen, het is niet de meest toegankelijke site maar dat draagt bij aan de ervaring dat je moet zoeken en steeds iets nieuws ontdekt in te site
+
+    Waar gebruik je HTML/CSS voor?
+
+-alles wat je met html/css kan doen doe je met html css, als het niet met html css kan doe je het met javascript
+
+    Wat kan er allemaal met CSS?
+
+-ik heb deze eerste 2 weken heel veel met css gedaan omdat mijn site heel veel opmaak nodig heeft meet je kan alles op precies de plek zetten waar je wilt, animaties toepassen en effecten met kleuren toevoegen, animaties zijn mijn favoriet.
+
+Verbeelden en conceptualiseren
+
+    Lukt het om verschillende ideeën te bedenken?
+
+-ja het lukt redelijk, ik had in het begin al een redelijk specifieke richting maar het lukte nogsteeds om te zoeken naar de mogelijkheden binnen die visie.
+
+    Lukt het om je ideeën te schetsen?
+
+-ja ik vond het schetsen wel leuk en tijdens de telefoon schetsen ben ik op mijn uiteindelijke idee gekomen
+
+    Wat doet deze CSS-property?
+
+-ik begrijp de vraag niet helemaal maar de animaties in css waren heel leuk om te ontdekken en mee te spelen, en de properties met light en dark mode aan kunnen pasen is ook cool.
+
+    Welke content, en welke HTML heb ik nodig?
+
+-html eigenlijk alleen gebruikt om foto's tpe te voegen, pop overs te maken, tekst in de pop over te schrijven, linkjes en geluid toe te voegen
+
+    Hoe kan ik dit soort content vormgeven?
+
+-ik probeer het in twee stijlen vorm te geven maar ik probeer vooral om het een andere site dan de meeste te laten zijn met een hele andere vormgeving
+
+    Wat als ik hier nu eens 1000 invul?
+
+-wel grappig idee, ik heb wel een ying yang het halve scherm laten innemen hopelijk telt dat.
+
+Prototypen en uitwerken
+
+    Begrijpen bezoekers de site?
+
+-het is niet de duidelijkste site maar ze komen er gaandeweg wel achter hoe die werkt als ze uit nieuwschierigheid op dingen gaan tikken
+
+    Wat vindt de opdrachtgever er van?
+
+-als de opdrachtgever de docent is vond hij het cool. er moest alleen nog iets van een bilb oard als verduidelijking dus die heb ik toegevoegd
+
+    Werkt dit wel?
+
+-eerst dacht ik van niet, toe kwam ik erachter dat het wel mogelijk is het is alleen heel veel werk en veel uitproberen dus het heeft vooral veel tijd gekost
+
+    Oooooh, kan dit óók?!
+
+-dit had ik denk ik toen sanne calc in css gebruikte want op die manier kon ik het goed stylen terwijl het met het scherm mee bewoog
+
+Evalueren
+Reflecteren met the riddle:
+(1) wat wilde ik weten?
+ik wilde een switch maken waarmee je de stad van kleur naar zwart wit kon veranderen
+
+    (2) wat deed ik om er achter te komen?
+
+hetv proberen te maken
+
+    (3) wat was het resultaat?
+
+het werkt deels
+
+    (4) wat weet ik nu (niet)?
+
+dat je met die switch de echte licht dark mode een soort van voor de gek houdt en het niet helemaal goed werkt
+
+    Wat wil(de) ik weten/bereiken?
+
+-ik wilde een coole stad maken met interactieve elementen gewoon omdat het mij cool leek
+
+    Wat heb ik gedaan?
+
+-onderzoek gedaan, geschetst, dingen uitgeprobeerd met code, ging eigenlijk allemaal wel prima en zelfs als ik er niet zoveel aan had heb ik er wel van geleerd zoals hoe je een grid maakt (heb ik in mijn site niks mee gedaan)
+
+    Wat was het resultaat?
+
+-dat je elke keer weer nieuwe ideeen krijgt en het eerste idee nooit vaststaat en je je concept dan weer kan aanpassen want het is jou tuintje.
+
+    Wat weet je nu (niet)?
+
+-dat css soms heel ingewikkeld kan zijn vooral als je een trigger voor light/dark switch wilt maken en dat niet alles op de site even goed werkt, en ik wil leren hoe ik de kleur component koppel aan de custom light dark switch ik heb er wel van geleerd van hoe je de normale light dark functies aan past en hoe je animaties maakt
+
+    Wat vond je (niet) leuk?
+
+-normaal vind ik code schrijven niet heel erg leuk maar in dit geval van dat je je eigen site mag maken op de manier hoe je zelf wilt vond ik het wel heel leuk omdat ik alles mocht doen met visuele beelden en animaties inplaats van saaie text blokken
+
+    Voldoet het nog aan de eisen?
+
+-tijdens het gesprek met sanne kwam ik erachter dat ik een klein beetje was afgeweken van de eisen doordat ik compnenten was vergeten(nu wel toegevoegd), het niet duidelijk was waar je naar keek(nu wel opgelost), en er geen gestalt theorie inzat mar lastig op te lossen is met mijn ontwerp, ik heb wel een schaduw van een persoon wat lijkt op een schim/gestalte maar ik weet niet of dat tever gezocht is en telt.
+
+    HTML validatie
+
+-ik denk dat mijn html nog wel valide is?
+
+    Toegankelijkheids-check
+
+-schreenreader check zal ik nog even doen en alt texten ook checken
+
+    Is mijn website nog wel adaptief?
+
+-ja is wel adaptief en past zich aan naar scherm grootes het enige probleem is dat de background image op telefoon niet inlaad en ik niet weet waardoor
+
+    Voldoet mijn website nog wel aan de wet?
+
+-ik hoop dat mijn website zich aan de wet voldoet, maar ik weet het niet zeker door de gebruikte afbeeldingen
+
+    Zie ik mezelf nog wel terug in wat ik doe?
+
+-jaa dat zeker ik vind het tot nu toe heel leuk om zelf aan je eigen site te werken
+
+de stad nu:
+<img src="img/check-outstadlicht.png.png">
+<img src="img/check-outstadlichtjuice.png">
+<img src="img/check-outstaddark.png.png">
+<img src="img/check-outstaddarkjuice.png.png">
+
+### 19 sept - [feedback verwerken]
+
+na feedback een billboard toegevoegd waarop staat "sebs city" en heb ik componenten met kleur voor de tekst toegevoegd
+
+componenten toegevoegd (was ik vergeten)
+<img src="img/components.png">
+
+bilboard toegevoegd waardoor je weet waar je naar kijkt
+
+<img src="img/bilboard.png">
+
+(heb er een gestalte op toegevoegd in de hoop dat dat dan iets van gestalt theorie toevoegd, want de rest van de theorie zoals balans valt lastig toe te passen op mijn ontwerp, denk ik maar ik zal het op school nog even vragen want in mijn beoordeling heb ik er overheen gelezen en staat er niks ingevult)
+
 ### 18 sept - [ terug kijken op afgelopen weken]
 
 <img src="img/grafiek.jpeg">
@@ -19,11 +170,6 @@ miste nog componenten ookal kwam ik er later achter dat ikk wel een component ha
 ook is de gestalt principes niet ingevult wat ik begrijp omdat mijn site niet echt gestalt principes gebruikt maar het is in mijn site ook wel lastig om dat toe te passen ookal is er wel na gedacht over matchende kleuren
 
 verder vond hij en de hulp student het een mooie site
-
-    Checkout:
-    Vragen en termen
-
-    Waarom geven de docenten deze opdracht?
 
 ### 17 sept - [ font aangepast]
 

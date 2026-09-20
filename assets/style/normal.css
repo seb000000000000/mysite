@@ -11,14 +11,14 @@
 html {
   color-scheme: light dark;
 
-  --brand-primaryred: rgb(255, 255, 255);
-  --brand-accentblue: rgb(177, 98, 28);
+  --brand-primary-color: rgb(255, 255, 255);
+  --brand-accent-color: rgb(177, 98, 28);
 
   @media (prefers-color-scheme: dark) {
     color-scheme: light;
 
-    --brand-primaryred: rgb(11, 236, 30);
-    --brand-accentblue: rgb(88, 59, 103);
+    --brand-primary-color: rgb(11, 236, 30);
+    --brand-accent-color: rgb(88, 59, 103);
   }
 
   background-image: light-dark(
@@ -33,7 +33,7 @@ html {
 }
 /*styling img en article in popovers hier*/
 article {
-  color: var(--brand-primaryred);
+  color: var(--brand-primary-color);
   width: 30em;
   height: 30em;
   padding: 3em;
@@ -108,7 +108,7 @@ input[type="radio"] {
 body {
   font-family: "comic style", sans-serif;
   margin: 0;
-  background: var(--brand-accentblue);
+  background: var(--brand-accent-color);
 }
 
 /* ALGEMENE button styling */
