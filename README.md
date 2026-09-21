@@ -4,6 +4,24 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 21 sept - [ les]
+
+eerst uitleg van justus toen opdracht over cookie popup <img src="img/aantekeningencookies.jpg";>
+
+Checkout
+
+    Wat zijn HTML landmark role elements?
+
+-elementen zoals nav waardoor een screen reader de site beter begrijpt
+
+     Wat zijn heading elementen en hoe horen deze 'genest' te worden?
+
+-de goede h1 h2 elementen geven aan verschillende teksten en geen h2 overslaan om h3 te gebruiken bijvoorbeeld
+
+    Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
+
+-ik weigerde ze altijd al maar ik let er nu nog meer op
+
 ### 20 sept - [checkout maken zodat ik er de tijd voor heb]
 
 Checkout:
