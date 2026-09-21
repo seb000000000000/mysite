@@ -142,6 +142,8 @@ de stad nu:
 <img src="img/check-outstaddark.png.png">
 <img src="img/check-outstaddarkjuice.png.png">
 
+ohja de rand bovenin is gewoon om de componenten te laten zien en haal ik later weer weg want ik wil gewoon de voledige img hebben
+
 ### 19 sept - [feedback verwerken]
 
 na feedback een billboard toegevoegd waarop staat "sebs city" en heb ik componenten met kleur voor de tekst toegevoegd
