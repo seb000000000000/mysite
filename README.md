@@ -4,6 +4,30 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 23 sept - [ les ]
+
+eerst gastspreker wat wel leuk was, erna les waarin we schetsen van dark patterns moesten maken en onze ideeen voor info afstaan moesten schetsen.
+
+Checkout
+
+    Wat is een wireflow en wat heb je er aan?
+
+-gekeken naar dark patterns en wat je moet proberen te voorkomen
+Wat zijn dark UX patterns? Geef drie voorbeelden...
+-false urgentie, doen alsof iets haast heeft, price comparison, dingen vergelijken, hidden cost, iets duurder maken door iets extra's toe te voegen waar je eerst nog niet vanaf weet.
+Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+-om het zo eerlijk mogelijk te houden,de gebruiker goed te informeren maar niet weg te schrikken
+
+### 22 sept - [deepdive]
+
+meer geleerd over buttons en hoe ik de img een glow moet geven als hover
+
+<img src="img/glowyship.png";>
+<img src="img/button-hover.png";>
+<img src="img/button-state.png";>
+
+had ook nog een vraag over hoe ik het met tab kan bedienen want bij mij gaan de buttons dat linksboven staan maar daar had vasilis geen tijd meer voor
+
 ### 21 sept - [ les]
 
 eerst uitleg van justus toen opdracht over cookie popup <img src="img/aantekeningencookies.jpg";>

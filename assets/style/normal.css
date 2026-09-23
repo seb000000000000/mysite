@@ -311,3 +311,32 @@ button:nth-of-type(6) {
   }
 }
 /* veel @media toegevoegd om te zorgen dat het in kleiner scherm op de goede plek is maar zodat het ook in fullscreen goed staat (alles deed het ook op telefoon maar sinds ik met sanne light dark mode heb toegevoegd is de achtergrond op telefoon weg en het is mij nog niet gelukt dit te herstellen)*/
+
+button:nth-of-type(7) {
+  img {
+    z-index: 45;
+    position: fixed;
+    width: 11em;
+    top: 5%;
+    left: -11em;
+
+    animation-name: --vliegtuig-animatie;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes --vliegtuig-animatie {
+  100% {
+    translate: calc((100dvw + 11rem) * -0.5);
+  }
+
+  50% {
+    translate: calc((100dvw + 11rem) * 0.13);
+  }
+
+  0% {
+    translate: calc((100dvw + 44rem) * 0.75);
+  }
+}
