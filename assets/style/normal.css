@@ -30,6 +30,42 @@ html {
 }
 /*styling img en article in popovers hier*/
 
+section {
+  width: 30em;
+  height: 30em;
+  padding: 3em;
+  border-radius: 3em;
+  background-color: rgb(255 255 255 / 0.25);
+  backdrop-filter: blur(0.25em);
+  @media (prefers-color-scheme: dark) {
+    border-color: var(--brand-primary-color);
+  }
+
+  img {
+    width: auto;
+    height: 40dvw;
+    @media (width > 50em) {
+      height: 20em;
+    }
+  }
+
+  ul {
+    padding: 0%;
+    margin: 0%;
+    font-weight: bold;
+  }
+
+  @media (width<30em) {
+    width: auto;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding: 2em;
+  }
+}
+
 /* sanne heeft geholpen met de light dark code om het een toggle te maken */
 @media (prefers-color-scheme: dark) {
   label:has([value="dark"]) {
@@ -307,41 +343,5 @@ button:nth-of-type(7) {
 
   0% {
     translate: calc((100dvw + 44rem) * 0.75);
-  }
-}
-
-section {
-  width: 30em;
-  height: 30em;
-  padding: 3em;
-  border-radius: 3em;
-  background-color: rgb(255 255 255 / 0.25);
-  backdrop-filter: blur(0.25em);
-  @media (prefers-color-scheme: dark) {
-    border-color: var(--brand-primary-color);
-  }
-
-  img {
-    width: auto;
-    height: 40dvw;
-    @media (width > 50em) {
-      height: 20em;
-    }
-  }
-
-  ul {
-    padding: 0%;
-    margin: 0%;
-    font-weight: bold;
-  }
-
-  @media (width<30em) {
-    width: auto;
-    height: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    padding: 2em;
   }
 }
