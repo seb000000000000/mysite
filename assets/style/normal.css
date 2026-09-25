@@ -29,7 +29,7 @@ html {
   background-position: center center;
 }
 /*styling img en article in popovers hier*/
-article {
+section {
   width: 30em;
   height: 30em;
   padding: 3em;
@@ -47,9 +47,13 @@ article {
       height: 20em;
     }
   }
-  li {
+
+  ul {
+    padding: 0%;
+    margin: 0%;
     font-weight: bold;
   }
+
   @media (width<30em) {
     width: auto;
     height: auto;

@@ -4,6 +4,12 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 25 sept - [les]
+
+w3 validator site gechecked, spaties bij mp3 file weggehaald, alt bij afbeelding toegevoegd, en lu element is blijkbaar niks dus maar als ik er ul van maak werkt de code niet meer dus haal ik het gewoon weg.
+
+na met student assistent te checken lu naar ul verandert en p anders neergezet waardoor ul het wel goed doet verder alle articles naar sections verandert
+
 ### 23 sept - [ les ]
 
 eerst gastspreker wat wel leuk was, erna les waarin we schetsen van dark patterns moesten maken en onze ideeen voor info afstaan moesten schetsen.
