@@ -145,6 +145,7 @@ button img:hover {
 }
 button:focus-visible {
   filter: drop-shadow(0 0 1em rgb(221, 221, 126));
+  outline: none;
 }
 
 /* styling ying yang hier gezet zodat hij dicht bij de light dark mode styling staat*/
@@ -271,25 +272,17 @@ body > img:nth-of-type(2) {
 button:nth-of-type(1) {
   z-index: 50;
   position: fixed;
-  right: calc(50% - 16.3rem);
-  bottom: 0rem;
-  width: 3.3rem;
-
-  background: yellow;
+  right: calc(50% - 16.5rem);
+  bottom: -0.2rem;
+  width: 3.8rem;
 
   @media (width > 87em) {
-    bottom: -2.6rem;
-    right: calc(50% - 18rem);
-    width: 3.5rem;
+    bottom: -2.3rem;
+    right: calc(50% - 18.2rem);
+    width: 3.9rem;
   }
 
   img {
-    /* z-index: 50;
-    position: fixed;
-    right: calc(50% - 16.3rem);
-    bottom: 0rem;
-    width: 3.3rem; */
-
     width: 100%;
   }
 }
