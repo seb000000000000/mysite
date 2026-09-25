@@ -66,6 +66,23 @@ section {
   }
 }
 
+dialog {
+  width: 30em;
+  height: 30em;
+  padding: 3em;
+  border-radius: 3em;
+  background-color: rgb(255 255 255 / 0.25);
+  backdrop-filter: blur(0.25em);
+  @media (width<30em) {
+    width: auto;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding: 2em;
+  }
+}
 /* sanne heeft geholpen met de light dark code om het een toggle te maken */
 @media (prefers-color-scheme: dark) {
   label:has([value="dark"]) {
@@ -126,6 +143,9 @@ button {
 button img:hover {
   filter: drop-shadow(0 0 1em rgb(221, 221, 126));
 }
+button:focus-visible {
+  filter: drop-shadow(0 0 1em rgb(221, 221, 126));
+}
 
 /* styling ying yang hier gezet zodat hij dicht bij de light dark mode styling staat*/
 label {
@@ -159,6 +179,10 @@ picture {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    display: none;
   }
 } /* ik dacht dat deze weg kon na dat ik de img heb replaced voor background image en daar boven nieuwe stijling voor heb maar als ik de code weghaal klopt de uitlijning niet meer dus laat ik het toch maar hier */
 
@@ -245,18 +269,28 @@ body > img:nth-of-type(2) {
 }
 /*xxx graffiti*/
 button:nth-of-type(1) {
+  z-index: 50;
+  position: fixed;
+  right: calc(50% - 16.3rem);
+  bottom: 0rem;
+  width: 3.3rem;
+
+  background: yellow;
+
+  @media (width > 87em) {
+    bottom: -2.6rem;
+    right: calc(50% - 18rem);
+    width: 3.5rem;
+  }
+
   img {
-    z-index: 50;
+    /* z-index: 50;
     position: fixed;
     right: calc(50% - 16.3rem);
     bottom: 0rem;
-    width: 3.3rem;
+    width: 3.3rem; */
 
-    @media (width > 87em) {
-      bottom: -2.6rem;
-      right: calc(50% - 18rem);
-      width: 3.5rem;
-    }
+    width: 100%;
   }
 }
 /*999 graffiti*/

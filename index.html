@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="./assets/style/normal.css" />
 
     <script defer src="assets/scripts/script.js"></script>
-    <title> </title>
+    <title>Seb's City</title>
   </head>
   <!-- lettertype link -->
 
   <body>
+    <picture><img src="img/eigenstad.png" alt="" /></picture>
+
     <form>
       <label>
         <input type="radio" name="color-scheme" value="light" />
@@ -198,35 +200,26 @@
       </p>
     </section>
 
-    <button popovertarget="vliegtuig">
-      <img src="img/vliegtuig.png" alt="vliegtuig met cookie spandoek" />
-      <!-- zelf getekend in procreate-->
+    <button commandfor="cookieModal" command="show-modal">
+      <img src="img/vliegtuig.png" alt="" />
     </button>
 
-    <section id="vliegtuig" popover>
-      <footer>
-        <nav>
-          <button commandfor="cookieModal" command="show-modal">
-            <img src="img/vliegtuig.png" alt="" />
-          </button>
-        </nav>
-      </footer>
+    <dialog id="cookieModal">
+      <form method="dialog">
+        <h2>do you want this site to take your data?</h2>
+        <p>
+          We use cookies to personalise content and ads, to provide social media
+          features and to analyse our traffic. We also share information about
+          your use of our site with our social media, advertising and analytics
+          partners who may combine it with other information that you’ve
+          provided to them or that they’ve collected from your use of their
+          services.
+        </p>
 
-      <dialog id="cookieModal">
-        <form method="dialog">
-          <p>
-            We use cookies to personalise content and ads, to provide social
-            media features and to analyse our traffic. We also share information
-            about your use of our site with our social media, advertising and
-            analytics partners who may combine it with other information that
-            you’ve provided to them or that they’ve collected from your use of
-            their services.
-          </p>
-          <button onclick="setCookie()">Allow</button>
-          <button onclick="unsetCookie()">Deny</button>
-        </form>
-      </dialog>
-    </section>
+        <button onclick="setCookie()">Allow</button>
+        <button onclick="unsetCookie()">Deny</button>
+      </form>
+    </dialog>
 
     <!--
     base die ik heb uitgezet omdat ik het niet nodig heb maar niet weet of het weg mag

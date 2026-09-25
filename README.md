@@ -10,6 +10,14 @@ w3 validator site gechecked, spaties bij mp3 file weggehaald, alt bij afbeelding
 
 na met student assistent te checken lu naar ul verandert en p anders neergezet waardoor ul het wel goed doet verder alle articles naar sections verandert
 
+feedback
+
+-naam geven aan site (titel)
+-cookies zonder popover en met dialog (wellicht dus vliegtuig neerstorten) goede alt aan vliegtuig geven en cookies menselijk -maken zoals "wil je advertenties ontvangen" inplaats van wil je cookies (wellicht duidelijker spandoek achter vliegtuig)
+-favicon aan site geven(light dark)
+-buttons flex op button inplaats van op img zetten zodat tab werkt
+-light dark problemen gaan we later een keer naar kijken is nu niet groot probleem
+
 ### 23 sept - [ les ]
 
 eerst gastspreker wat wel leuk was, erna les waarin we schetsen van dark patterns moesten maken en onze ideeen voor info afstaan moesten schetsen.
