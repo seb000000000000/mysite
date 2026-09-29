@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 29 sept - [thuis]
+
+veel aan mijn site gewerkt, veel uitgezocht hoe het stijlen van de zwarte en de witte variant werkt en wat je wel en niet moet stijlen want sommige dingen doen dan niks of passen op normale light dark mode aan inplaats van op de switch uiteindelijk veel verschillende hover kleuren toegevoegd in de grijze modus de teksten rood gemaakt andere lettertype gegeven en afbeelding switch toegevoegd.
+
 ### 28 sept - [ les ]
 
 propaganda vragen gemaakt

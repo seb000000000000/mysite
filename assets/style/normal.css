@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "drip";
+  src: url(../type/Lacquer-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* KLEURTJES */
 
 html {
@@ -67,6 +74,7 @@ dialog {
   border-radius: 3em;
   background-color: rgb(255 255 255 / 0.25);
   backdrop-filter: blur(0.25em);
+  border-color: var(--brand-primary-color);
   @media (width<30em) {
     width: auto;
     height: auto;
@@ -76,6 +84,10 @@ dialog {
     margin-top: 5rem;
     padding: 2em;
   }
+}
+
+form {
+  color: var(--brand-primary-color);
 }
 /* sanne heeft geholpen met de light dark code om het een toggle te maken */
 @media (prefers-color-scheme: dark) {
@@ -138,6 +150,19 @@ html:has([value="dark"]:checked) button:focus-visible {
 html:has([value="dark"]:checked) section {
   background-color: rgba(255, 255, 255, 0);
   backdrop-filter: blur(1em);
+  font-family: drip;
+}
+html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
+  content: url("../../img/flydragongif.gif");
+  width: 200%;
+}
+
+html:has([value="dark"]:checked) form {
+  font-family: drip;
+  button {
+    color: var(--brand-primary-color);
+    font-family: drip;
+  }
 }
 
 html:has([value="dark"]:checked) label:has([value="dark"]) {
@@ -199,11 +224,11 @@ label {
   left: calc(50% - 13rem);
 
   @media (width > 85em) {
-    left: calc(50% - 14.3rem);
-    bottom: 78%;
+    left: calc(50% - 14.8rem);
+    bottom: 72%;
   }
   img {
-    width: 2em;
+    width: 3em;
   }
 }
 
@@ -411,7 +436,7 @@ button:nth-of-type(6) {
 button:nth-of-type(7) {
   z-index: 45;
   position: fixed;
-  width: 11em;
+  width: 14em;
   top: 5%;
   left: -11em;
   padding: 0%;

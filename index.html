@@ -14,25 +14,36 @@
   <!-- lettertype link -->
 
   <body>
-    <picture><source srcset="img/eigenstad.png" /></picture>
+    <picture
+      ><img src="img/eigenstad.png" alt="View of new york city from a roof" />
+    </picture>
     <form>
       <label>
         <input type="radio" name="color-scheme" value="light" />
-        <img src="img/Yin_yang.svg.webp" alt="ying yang" />
+        <img
+          src="img/ying-yangred.png"
+          alt="ying yang which switches the sites color to black and white"
+        />
         <!--web image wil ik nog zelf beter maken/tekenen maar nog geen tijd voor -->
       </label>
       <label>
         <input type="radio" name="color-scheme" value="dark" />
-        <img src="img/Yin_yang.svg.webp" alt="ying yang" />
+        <img
+          src="img/ying-yang.png"
+          alt="ying yang which switches the sites color to color"
+        />
         <!--web image wil ik nog zelf beter maken/tekenen maar nog geen tijd voor -->
       </label>
     </form>
 
     <!--img2-->
-    <img src="img/personlookingatview.png" alt="kijkend persoon" />
+    <img
+      src="img/personlookingatview.png"
+      alt="silhouet of a person looking at the horizon"
+    />
     <!-- in procreate gemaakt-->
 
-    <img src="img/sebscity.png" alt="bilboard met tekst seb's city" />
+    <img src="img/sebscity.png" alt="bilboard with text seb's city" />
 
     <!--img3-->
     <!--<img src="img/xxxgraffiti.png" alt="xxxgraffiti" />-->
@@ -42,7 +53,7 @@
       <!--popover gemaakt met wat ik mij kon herinneren van vorig jaar en mdn web site-->
       <img
         src="img/xxxgraffiti.png"
-        alt="een graffiti met 3 x en die verticaal staan"
+        alt="a graffiti that consists of 3 xes verticly above each other  "
       /><!--oude img zelfgemaakt-->
     </button>
 
@@ -81,7 +92,7 @@
     <button popovertarget="999">
       <img
         src="img/999correctsize.png"
-        alt="juice wrld graffiti, de graffiti bestaat uit de tekst 999"
+        alt="juice wrld graffiti, a graffiti consisting of the text 999"
       />
       <!-- zelf in procreate gemaakt-->
     </button>
@@ -129,12 +140,12 @@
     </section>
 
     <button popovertarget="viking">
-      <img src="img/viking2.gif" alt="vikingschip" />
+      <img src="img/viking2.gif" alt="viking ship" />
       <!-- zelf getekend in procreate-->
     </button>
 
     <section id="viking" popover>
-      <img src="./img/gowboot.avif" alt="vikingschip" />
+      <img src="./img/gowboot.avif" alt="god of war game cover image" />
       <!-- afbeelding van het web-->
       <h1>Norse mythology</h1>
       <p>
@@ -191,15 +202,12 @@
     <!-- eigen mp3 file die ik bij de plaat kreeg toen ik de lp kocht (jammer genoeg niet de zelfde plaat als die ik heb getekend maar die had ik niet op mp3)-->
 
     <button popovertarget="luffy">
-      <img src="img/luffyhat.png" alt="luffyhat" />
+      <img src="img/luffyhat.png" alt="luffy hat" />
       <!-- zelf getekend in procreate-->
     </button>
 
     <section id="luffy" popover>
-      <img
-        src="img/onepiece.jpg"
-        alt="afbeelding voor cover art van de serie"
-      />
+      <img src="img/onepiece.jpg" alt="image of cover art from the serie" />
       <!-- van het web een img gehaald-->
       <h1>One Piece</h1>
       <p>
@@ -209,27 +217,23 @@
       </p>
     </section>
 
-    <button commandfor="cookieModal" command="show-modal">
-      <img
-        src="img/vliegtuig.png"
-        alt="vliegtuig met cookie banner wat er achter aan wappert"
-      />
+    <button commandfor="cookievliegtuig" command="show-modal">
+      <img src="img/vliegtuig.png" alt="plane with cookie banner behind it " />
     </button>
 
-    <dialog id="cookieModal">
+    <dialog id="cookievliegtuig">
       <form method="dialog">
-        <h2>do you want this site to take your data?</h2>
+        <h2>Cookies</h2>
         <p>
-          We use cookies to personalise content and ads, to provide social media
-          features and to analyse our traffic. We also share information about
-          your use of our site with our social media, advertising and analytics
-          partners who may combine it with other information that you’ve
-          provided to them or that they’ve collected from your use of their
-          services.
+          Cookies are tiny pieces of data that websites can store on your
+          device. They can help remember things like your preferences and how
+          you use a website. This website doesn't use cookies itself, but
+          GitHub, which hosts this site, may use cookies. So... want to let the
+          cookies in?
         </p>
 
-        <button onclick="setCookie()">Allow</button>
-        <button onclick="unsetCookie()">Deny</button>
+        <button onclick="setCookie()">allright</button>
+        <button onclick="unsetCookie()">nope</button>
       </form>
     </dialog>
 
