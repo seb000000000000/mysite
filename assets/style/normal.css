@@ -10,14 +10,6 @@
 
 html {
   color-scheme: light dark;
-  --hover-color: rgb(221, 221, 126);
-  --tab-color: rgb(135, 219, 133);
-  --brand-primary-color: rgb(255, 255, 255);
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: light;
-    --brand-primary-color: rgb(110, 8, 8);
-  }
   background-image: light-dark(
     url("../../img/eigenstad.png"),
     /* shot uit sunflower gepakt, (via licence free site) toen zelf via chat gpt spiderman er uit gehaald en kleuren warmer/exremer gemaakt */
@@ -35,10 +27,12 @@ section {
   height: 30em;
   padding: 3em;
   border-radius: 3em;
-  background-color: rgb(255 255 255 / 0.25);
+  background-color: rgba(255, 255, 255, 0.105);
   backdrop-filter: blur(0.25em);
+  color: var(--brand-primary-color);
   @media (prefers-color-scheme: dark) {
     border-color: var(--brand-primary-color);
+    color: var(--brand-primary-color);
   }
 
   img {
@@ -98,6 +92,11 @@ dialog {
 /* als er light gekozen is */
 html:has([value="light"]:checked) {
   color-scheme: light;
+  --brand-primary-color: rgb(11, 11, 11);
+  --link-hover-color: rgb(65, 201, 235);
+  --link-active-color: rgb(24, 44, 112);
+  --hover-color: rgb(221, 221, 126);
+  --tab-color: rgb(135, 219, 133);
 }
 
 html:has([value="light"]:checked) label:has([value="dark"]) {
@@ -111,6 +110,34 @@ html:has([value="light"]:checked) label:has([value="light"]) {
 /* als er dark gekozen is */
 html:has([value="dark"]:checked) {
   color-scheme: dark;
+  --brand-primary-color: rgb(255, 59, 59);
+  --link-hover-color: rgb(244, 243, 244);
+  --link-active-color: rgb(70, 5, 5);
+  --tab-color: rgb(72, 38, 138);
+}
+
+html:has([value="dark"]:checked) img {
+  filter: grayscale(100%);
+}
+html:has([value="dark"]:checked) label:hover {
+  filter: drop-shadow(0 0 0.5em var(--brand-primary-color))
+    drop-shadow(0 0 1em var(--brand-primary-color))
+    drop-shadow(0 0 2em var(--brand-primary-color));
+}
+html:has([value="dark"]:checked) button:hover {
+  filter: drop-shadow(0 0 0.5em var(--brand-primary-color))
+    drop-shadow(0 0 1em var(--brand-primary-color))
+    drop-shadow(0 0 2em var(--brand-primary-color));
+}
+
+html:has([value="dark"]:checked) button:focus-visible {
+  filter: drop-shadow(0 0 0.5em var(--tab-color))
+    drop-shadow(0 0 1em var(--tab-color)) drop-shadow(0 0 2em var(--tab-color));
+}
+
+html:has([value="dark"]:checked) section {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(1em);
 }
 
 html:has([value="dark"]:checked) label:has([value="dark"]) {
@@ -130,9 +157,15 @@ body {
 }
 
 /* ALGEMENE button styling */
-
-a:hover {
+a {
   color: var(--brand-primary-color);
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+
+a:active {
+  color: var(--link-active-color);
 }
 
 button {
@@ -141,7 +174,7 @@ button {
   border: none;
 }
 
-button img:hover {
+button:hover {
   filter: drop-shadow(0 0 0.5em var(--hover-color))
     drop-shadow(0 0 1em var(--hover-color))
     drop-shadow(0 0 2em var(--hover-color));
@@ -174,15 +207,15 @@ label {
   }
 }
 
-label img:hover {
-  filter: drop-shadow(0 0 1em rgb(221, 221, 126))
-    drop-shadow(0 0 1em rgb(221, 221, 126))
-    drop-shadow(0 0 1em rgb(221, 221, 126));
+label:hover {
+  filter: drop-shadow(0 0 1em var(--hover-color))
+    drop-shadow(0 0 1em var(--hover-color))
+    drop-shadow(0 0 1em var(--hover-color));
 }
 
-label:has(input:focus-visible) img {
-  filter: drop-shadow(0 0 1em rgb(79, 255, 76))
-    drop-shadow(0 0 1em rgb(139, 76, 255)) drop-shadow(0 0 1em rgb(79, 255, 76));
+label:has(input:focus-visible) /*als ik alleen focus visible deed deed hij het niet, omdat ik thuis werkte aan chat gpt gevraagd en uiteindelijk op dit uitgekomen omdat hij als input focus visible krijgt doet hij het nu want bij alleen focus visible gebeurt er niks dus kan hij de styling niet toepassen*/ {
+  filter: drop-shadow(0 0 1em var(--tab-color))
+    drop-shadow(0 0 1em var(--tab-color)) drop-shadow(0 0 1em var(--tab-color));
 
   outline: none;
 }
@@ -194,7 +227,7 @@ picture {
   width: 100dvw;
   height: 100dvh;
   top: 0%;
-  display: none;
+
   img {
     display: block;
     width: 100%;
