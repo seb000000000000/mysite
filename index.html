@@ -9,21 +9,27 @@
 
     <script defer src="assets/scripts/script.js"></script>
     <title>Seb's City</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
   </head>
   <!-- lettertype link -->
 
   <body>
-    <picture><img src="img/eigenstad.png" alt="" /></picture>
+    <picture
+      ><source
+        srcset="img/eigenstad.png"
+        media="(prefers-color-scheme: dark)" />
+      <img src="img/eigenstad3.png" alt="de city skyline van new york"
+    /></picture>
 
     <form>
       <label>
         <input type="radio" name="color-scheme" value="light" />
-        <img src="img/Yin_yang.svg.webp" alt="" />
+        <img src="img/Yin_yang.svg.webp" alt="ying yang" />
         <!--web image wil ik nog zelf beter maken/tekenen maar nog geen tijd voor -->
       </label>
       <label>
         <input type="radio" name="color-scheme" value="dark" />
-        <img src="img/Yin_yang.svg.webp" alt="" />
+        <img src="img/Yin_yang.svg.webp" alt="ying yang" />
         <!--web image wil ik nog zelf beter maken/tekenen maar nog geen tijd voor -->
       </label>
     </form>
@@ -32,7 +38,7 @@
     <img src="img/personlookingatview.png" alt="kijkend persoon" />
     <!-- in procreate gemaakt-->
 
-    <img src="img/sebscity.png" alt="bilboard met mijn naam/idee/uitleg" />
+    <img src="img/sebscity.png" alt="bilboard met tekst seb's city" />
 
     <!--img3-->
     <!--<img src="img/xxxgraffiti.png" alt="xxxgraffiti" />-->
@@ -40,11 +46,14 @@
 
     <button popovertarget="xxx">
       <!--popover gemaakt met wat ik mij kon herinneren van vorig jaar en mdn web site-->
-      <img src="img/xxxgraffiti.png" alt="Foto" /><!--oude img zelfgemaakt-->
+      <img
+        src="img/xxxgraffiti.png"
+        alt="een graffiti met 3 x en die verticaal staan"
+      /><!--oude img zelfgemaakt-->
     </button>
 
     <section id="xxx" popover>
-      <img src="./img/badvibesforever.webp" alt="XXXTentacion" />
+      <img src="./img/badvibesforever.webp" alt="XXXTentacion album cover" />
       <!-- afbeelding van album cover van het web gehaald-->
       <h1>XXXTENTACION</h1>
       <p>
@@ -76,12 +85,18 @@
     </section>
 
     <button popovertarget="999">
-      <img src="img/999correctsize.png" alt="juice wrld" />
+      <img
+        src="img/999correctsize.png"
+        alt="juice wrld graffiti, de graffiti bestaat uit de tekst 999"
+      />
       <!-- zelf in procreate gemaakt-->
     </button>
 
     <section id="999" popover>
-      <img src="./img/wishingwell.jpg" alt="juice wrld" />
+      <img
+        src="./img/wishingwell.jpg"
+        alt="juice wrld legends never die album cover "
+      />
       <!-- cover afbeelding van album van het web-->
       <h1>Juice WRLD</h1>
       <p>
@@ -173,7 +188,7 @@
     </section>
 
     <button onclick="playGeluid()">
-      <img src="img/beweegmuziekplaat.gif" alt="" />
+      <img src="img/beweegmuziekplaat.gif" alt=" lp player which plays music" />
       <!-- zelf getekend in procreate, plaat gebaseerd op spiderverse plaat uit spiderman into the spiderverse-->
     </button>
 
@@ -201,7 +216,10 @@
     </section>
 
     <button commandfor="cookieModal" command="show-modal">
-      <img src="img/vliegtuig.png" alt="" />
+      <img
+        src="img/vliegtuig.png"
+        alt="vliegtuig met cookie banner wat er achter aan wappert"
+      />
     </button>
 
     <dialog id="cookieModal">

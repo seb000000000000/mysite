@@ -4,6 +4,35 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 28 sept - [ les ]
+
+propaganda vragen gemaakt
+<img src="img/propagandaonderzoek.jpg";>
+<img src="img/propagandaonderzoek2.jpg";>
+recap van vassilis gekregen
+
+vs bedienen zonder touchpad
+<img src="img/vs-reis-info.png";>
+
+check out
+
+    Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
+
+dat hij meer bezig is met wat het doet dan wat het betekend
+
+    Wat voor type beperkingen hebben invloed op het gebruiken van websites?
+
+mororisch
+visueel
+cognitief
+auditief
+Noem drie manieren om door een website te navigeren met jouw screenreader.
+[Windows key]+[control]+[enter] is voice over aan
+[control] is voice over uit
+
+Press Narrator+Ctrl+the Plus sign (⁠+⁠) or Narrator+Ctrl+Add (numeric keypad) om geluid harder te maken
+Press Narrator+Ctrl+the Minus sign (⁠-⁠) or Narrator+Ctrl+Subtract (numeric keypad) geluid zachter
+
 ### 25 sept - [les]
 
 w3 validator site gechecked, spaties bij mp3 file weggehaald, alt bij afbeelding toegevoegd, en lu element is blijkbaar niks dus maar als ik er ul van maak werkt de code niet meer dus haal ik het gewoon weg.

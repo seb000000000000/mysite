@@ -10,20 +10,20 @@
 
 html {
   color-scheme: light dark;
-
+  --hover-color: rgb(221, 221, 126);
+  --tab-color: rgb(135, 219, 133);
   --brand-primary-color: rgb(255, 255, 255);
-  /* --brand-accent-color: rgb(177, 98, 28); */
+
   @media (prefers-color-scheme: dark) {
     color-scheme: light;
     --brand-primary-color: rgb(110, 8, 8);
-    /* --brand-accent-color: rgb(88, 59, 103); */
   }
   background-image: light-dark(
     url("../../img/eigenstad.png"),
     /* shot uit sunflower gepakt, (via licence free site) toen zelf via chat gpt spiderman er uit gehaald en kleuren warmer/exremer gemaakt */
     url("../../img/eigenstad3.png") /* toen img met filter zwart wit gemaakt*/
   );
-  /* light dark met sanne gedaan, ik ben er wel achter gekomen dat nu na deze verandering op telefoon de achtergrond weggaat maar heb dat nog niet zelf weten te fixen, sinds de light dark mode ook de letterkleur niet meer kunnen veranderen */
+  /* light dark met sanne gedaan, ik ben er wel achter gekomen dat nu na deze verandering op telefoon de achtergrond weggaat maar heb dat nog niet zelf weten te fixen */
   min-height: 100dvh;
   background-size: cover;
   background-position: center center;
@@ -120,9 +120,6 @@ html:has([value="dark"]:checked) label:has([value="dark"]) {
 html:has([value="dark"]:checked) label:has([value="light"]) {
   display: block;
 }
-input[type="radio"] {
-  display: none;
-}
 
 /* WRAPPERS */
 
@@ -134,6 +131,10 @@ body {
 
 /* ALGEMENE button styling */
 
+a:hover {
+  color: var(--brand-primary-color);
+}
+
 button {
   cursor: pointer;
   background: none; /* background en border weggehaald omdat je ze anders links boven in beeld heel klein allemaal zag*/
@@ -141,14 +142,23 @@ button {
 }
 
 button img:hover {
-  filter: drop-shadow(0 0 1em rgb(221, 221, 126));
+  filter: drop-shadow(0 0 0.5em var(--hover-color))
+    drop-shadow(0 0 1em var(--hover-color))
+    drop-shadow(0 0 2em var(--hover-color));
 }
 button:focus-visible {
-  filter: drop-shadow(0 0 1em rgb(221, 221, 126));
+  filter: drop-shadow(0 0 1em var(--tab-color))
+    drop-shadow(0 0 1em var(--tab-color)) drop-shadow(0 0 1em var(--tab-color));
   outline: none;
 }
 
 /* styling ying yang hier gezet zodat hij dicht bij de light dark mode styling staat*/
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
 label {
   z-index: 40;
   position: fixed;
@@ -165,7 +175,16 @@ label {
 }
 
 label img:hover {
-  filter: drop-shadow(0 0 1em rgb(221, 221, 126));
+  filter: drop-shadow(0 0 1em rgb(221, 221, 126))
+    drop-shadow(0 0 1em rgb(221, 221, 126))
+    drop-shadow(0 0 1em rgb(221, 221, 126));
+}
+
+label:has(input:focus-visible) img {
+  filter: drop-shadow(0 0 1em rgb(79, 255, 76))
+    drop-shadow(0 0 1em rgb(139, 76, 255)) drop-shadow(0 0 1em rgb(79, 255, 76));
+
+  outline: none;
 }
 
 /* STAD */
@@ -175,29 +194,28 @@ picture {
   width: 100dvw;
   height: 100dvh;
   top: 0%;
+  display: none;
   img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-color: none;
-    background: none;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    display: none;
   }
 } /* ik dacht dat deze weg kon na dat ik de img heb replaced voor background image en daar boven nieuwe stijling voor heb maar als ik de code weghaal klopt de uitlijning niet meer dus laat ik het toch maar hier */
 
 /* BOOT */
 button:nth-of-type(3) {
   /* van sanne hulp gekregen over basis van animatie toen zelf gekeken naar hoe ik schommel effect kan toevoegen */
+
+  z-index: 40;
+  position: fixed;
+  width: 11em;
+  top: 38%;
+  left: -11em;
+  padding: 0%;
+
   img {
-    z-index: 40;
-    position: fixed;
-    width: 11em;
-    top: 38%;
-    left: -11em;
+    width: 100%;
 
     animation-name: --vikingschip-animatie;
     animation-duration: 20s;
@@ -289,70 +307,84 @@ body > button:nth-of-type(1) {
   }
 }
 /*999 graffiti*/
-button:nth-of-type(2) {
-  img {
-    z-index: 30;
-    position: fixed;
-    right: calc(50% - 13.2rem);
-    bottom: -0.7rem;
-    width: 6.5rem;
+body > button:nth-of-type(2) {
+  z-index: 30;
+  position: fixed;
+  right: calc(50% - 13.2rem);
+  bottom: -0.7rem;
+  width: 6.5rem;
+  padding: 0%;
 
-    @media (width > 87em) {
-      bottom: -3.2em;
-      right: calc(50% - 14.4rem);
-      width: 6.7rem;
-    }
+  @media (width > 87em) {
+    bottom: -3.2em;
+    right: calc(50% - 14.4rem);
+    width: 6.7rem;
+  }
+  img {
+    width: 100%;
   }
 }
 /*pokemon tower*/
 button:nth-of-type(4) {
-  img {
-    z-index: 35;
-    position: fixed;
-    left: calc(50% - 7.8rem);
-    bottom: 59%;
-    object-fit: cover;
-    width: 19rem;
+  z-index: 35;
+  position: fixed;
+  left: calc(50% - 7.8rem);
+  bottom: 59%;
+  object-fit: cover;
+  width: 19rem;
+  padding: 0;
 
-    @media (width > 87em) {
-      bottom: 61%;
-    }
+  @media (width > 87em) {
+    bottom: 61%;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
 /*muziekding*/
 button:nth-of-type(5) {
+  z-index: 40;
+  position: fixed;
+  bottom: 0%;
+  left: calc(50% - 12.5rem);
+  width: 9rem;
+  padding: 0;
+
   img {
-    z-index: 40;
-    position: fixed;
-    bottom: 0%;
-    left: calc(50% - 12.5rem);
-    width: 9rem;
+    width: 100%;
   }
 }
 /*luffy straw hat*/
 button:nth-of-type(6) {
+  z-index: 40;
+  position: fixed;
+  bottom: 25%;
+  left: calc(50% - 5.2rem);
+  width: 6rem;
+  padding: 0%;
+
+  @media (width > 87em) {
+    bottom: 24%;
+    left: calc(50% - 5.4rem);
+  }
   img {
-    z-index: 40;
-    position: fixed;
-    bottom: 25%;
-    left: calc(50% - 5.2rem);
-    width: 6rem;
-    @media (width > 87em) {
-      bottom: 24%;
-      left: calc(50% - 5.4rem);
-    }
+    width: 100%;
   }
 }
 /* veel @media toegevoegd om te zorgen dat het in kleiner scherm op de goede plek is maar zodat het ook in fullscreen goed staat (alles deed het ook op telefoon maar sinds ik met sanne light dark mode heb toegevoegd is de achtergrond op telefoon weg en het is mij nog niet gelukt dit te herstellen)*/
 
 button:nth-of-type(7) {
+  z-index: 45;
+  position: fixed;
+  width: 11em;
+  top: 5%;
+  left: -11em;
+  padding: 0%;
+
   img {
-    z-index: 45;
-    position: fixed;
-    width: 11em;
-    top: 5%;
-    left: -11em;
+    width: 100%;
 
     animation-name: --vliegtuig-animatie;
     animation-duration: 15s;
