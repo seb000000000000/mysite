@@ -14,7 +14,7 @@
 }
 
 /* KLEURTJES */
-
+/* MARK:html */
 html {
   color-scheme: light dark;
   background-image: light-dark(
@@ -27,8 +27,106 @@ html {
   background-size: cover;
   background-position: center center;
 }
-/*styling img en article in popovers hier*/
 
+/* MARK:body */
+
+body {
+  font-family: "comic style", sans-serif;
+  margin: 0;
+  background: var(--brand-accent-color);
+}
+
+/* MARK:L-D (light dark) (hulp van sanne met toggle gekregen erna verder zelf aan gewerkt) */
+@media (prefers-color-scheme: dark) {
+  label:has([value="dark"]) {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  label:has([value="light"]) {
+    display: block;
+  }
+}
+/*MARK:light*/
+html:has([value="light"]:checked) {
+  color-scheme: light;
+  --brand-primary-color: rgb(11, 11, 11);
+  --link-color: rgb(221, 221, 126);
+  --link-hover-color: rgb(65, 201, 235);
+  --link-active-color: rgb(24, 44, 112);
+  --hover-color: rgb(221, 221, 126);
+  --tab-color: rgb(135, 219, 133);
+}
+
+html:has([value="light"]:checked) label:has([value="dark"]) {
+  display: block;
+}
+
+html:has([value="light"]:checked) label:has([value="light"]) {
+  display: none;
+}
+
+/*MARK:dark*/
+html:has([value="dark"]:checked) {
+  color-scheme: dark;
+  --brand-primary-color: rgb(255, 59, 59);
+  --link-color: rgb(232, 163, 163);
+  --link-hover-color: rgb(244, 243, 244);
+  --link-active-color: rgb(70, 5, 5);
+  --tab-color: rgb(72, 38, 138);
+}
+
+html:has([value="dark"]:checked) img {
+  filter: grayscale(100%);
+}
+html:has([value="dark"]:checked) label:hover {
+  filter: drop-shadow(0 0 0.5em var(--brand-primary-color))
+    drop-shadow(0 0 1em var(--brand-primary-color))
+    drop-shadow(0 0 2em var(--brand-primary-color));
+}
+html:has([value="dark"]:checked) button:hover {
+  filter: drop-shadow(0 0 0.5em var(--brand-primary-color))
+    drop-shadow(0 0 1em var(--brand-primary-color))
+    drop-shadow(0 0 2em var(--brand-primary-color));
+}
+
+html:has([value="dark"]:checked) button:focus-visible {
+  filter: drop-shadow(0 0 0.5em var(--tab-color))
+    drop-shadow(0 0 1em var(--tab-color)) drop-shadow(0 0 2em var(--tab-color));
+}
+
+html:has([value="dark"]:checked) section {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(1em);
+  font-family: drip;
+}
+html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
+  content: url("../../img/flydragongif.gif");
+  width: 200%;
+
+  @media (width < 540px) {
+    width: 80%;
+  }
+}
+
+html:has([value="dark"]:checked) form {
+  font-family: drip;
+  button {
+    color: var(--brand-primary-color);
+    font-family: drip;
+  }
+}
+
+html:has([value="dark"]:checked) label:has([value="dark"]) {
+  display: none;
+}
+
+html:has([value="dark"]:checked) label:has([value="light"]) {
+  display: block;
+}
+
+/*MARK:section (popovers)*/
 section {
   width: 30em;
   height: 30em;
@@ -66,7 +164,7 @@ section {
     padding: 2em;
   }
 }
-
+/* MARK: dailog (cookie) */
 dialog {
   width: 30em;
   height: 30em;
@@ -75,6 +173,7 @@ dialog {
   background-color: rgb(255 255 255 / 0.25);
   backdrop-filter: blur(0.25em);
   border-color: var(--brand-primary-color);
+
   @media (width<30em) {
     width: auto;
     height: auto;
@@ -85,105 +184,12 @@ dialog {
     padding: 2em;
   }
 }
-
+/* MARK:form (cookie) */
 form {
   color: var(--brand-primary-color);
 }
-/* sanne heeft geholpen met de light dark code om het een toggle te maken */
-@media (prefers-color-scheme: dark) {
-  label:has([value="dark"]) {
-    display: none;
-  }
-}
 
-@media (prefers-color-scheme: light) {
-  label:has([value="light"]) {
-    display: block;
-  }
-}
-/* als er light gekozen is */
-html:has([value="light"]:checked) {
-  color-scheme: light;
-  --brand-primary-color: rgb(11, 11, 11);
-  --link-color: rgb(221, 221, 126);
-  --link-hover-color: rgb(65, 201, 235);
-  --link-active-color: rgb(24, 44, 112);
-  --hover-color: rgb(221, 221, 126);
-  --tab-color: rgb(135, 219, 133);
-}
-
-html:has([value="light"]:checked) label:has([value="dark"]) {
-  display: block;
-}
-
-html:has([value="light"]:checked) label:has([value="light"]) {
-  display: none;
-}
-
-/* als er dark gekozen is */
-html:has([value="dark"]:checked) {
-  color-scheme: dark;
-  --brand-primary-color: rgb(255, 59, 59);
-  --link-color: rgb(232, 163, 163);
-  --link-hover-color: rgb(244, 243, 244);
-  --link-active-color: rgb(70, 5, 5);
-  --tab-color: rgb(72, 38, 138);
-}
-
-html:has([value="dark"]:checked) img {
-  filter: grayscale(100%);
-}
-html:has([value="dark"]:checked) label:hover {
-  filter: drop-shadow(0 0 0.5em var(--brand-primary-color))
-    drop-shadow(0 0 1em var(--brand-primary-color))
-    drop-shadow(0 0 2em var(--brand-primary-color));
-}
-html:has([value="dark"]:checked) button:hover {
-  filter: drop-shadow(0 0 0.5em var(--brand-primary-color))
-    drop-shadow(0 0 1em var(--brand-primary-color))
-    drop-shadow(0 0 2em var(--brand-primary-color));
-}
-
-html:has([value="dark"]:checked) button:focus-visible {
-  filter: drop-shadow(0 0 0.5em var(--tab-color))
-    drop-shadow(0 0 1em var(--tab-color)) drop-shadow(0 0 2em var(--tab-color));
-}
-
-html:has([value="dark"]:checked) section {
-  background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(1em);
-  font-family: drip;
-}
-html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
-  content: url("../../img/flydragongif.gif");
-  width: 200%;
-}
-
-html:has([value="dark"]:checked) form {
-  font-family: drip;
-  button {
-    color: var(--brand-primary-color);
-    font-family: drip;
-  }
-}
-
-html:has([value="dark"]:checked) label:has([value="dark"]) {
-  display: none;
-}
-
-html:has([value="dark"]:checked) label:has([value="light"]) {
-  display: block;
-}
-
-/* WRAPPERS */
-
-body {
-  font-family: "comic style", sans-serif;
-  margin: 0;
-  background: var(--brand-accent-color);
-}
-
-/* ALGEMENE button styling */
+/* MARK:A styling*/
 a {
   color: var(--link-color);
 }
@@ -194,7 +200,7 @@ a:hover {
 a:active {
   color: var(--link-active-color);
 }
-
+/* MARK:button */
 button {
   cursor: pointer;
   background: none; /* background en border weggehaald omdat je ze anders links boven in beeld heel klein allemaal zag*/
@@ -212,8 +218,7 @@ button:focus-visible {
   outline: none;
 }
 
-/* styling ying yang hier gezet zodat hij dicht bij de light dark mode styling staat*/
-
+/* MARK:yingyang (label is ying yang input is radio button) */
 input[type="radio"] {
   position: absolute;
   opacity: 0;
@@ -247,7 +252,7 @@ label:has(input:focus-visible) /*als ik alleen focus visible deed deed hij het n
   outline: none;
 }
 
-/* STAD */
+/*MARK:STAD background */
 picture {
   z-index: 10;
   position: fixed;
@@ -263,7 +268,7 @@ picture {
   }
 } /* ik dacht dat deze weg kon na dat ik de img heb replaced voor background image en daar boven nieuwe stijling voor heb maar als ik de code weghaal klopt de uitlijning niet meer dus laat ik het toch maar hier */
 
-/* BOOT */
+/*MARK:vikingschip */
 button:nth-of-type(3) {
   /* van sanne hulp gekregen over basis van animatie toen zelf gekeken naar hoe ik schommel effect kan toevoegen */
 
@@ -329,7 +334,7 @@ button:nth-of-type(3) {
   }
 }
 
-/*zittend persoon*/
+/*MARK:zittend persoon*/
 body > img:nth-of-type(1) {
   position: fixed;
   z-index: 20;
@@ -339,6 +344,7 @@ body > img:nth-of-type(1) {
   top: 0;
   left: 0;
 }
+/* MARK:sebcity */
 body > img:nth-of-type(2) {
   position: fixed;
   z-index: 20;
@@ -348,7 +354,7 @@ body > img:nth-of-type(2) {
   top: 0;
   left: 0;
 }
-/*xxx graffiti*/
+/*MARK:xxx graffiti*/
 body > button:nth-of-type(7) {
   z-index: 50;
   position: fixed;
@@ -362,11 +368,17 @@ body > button:nth-of-type(7) {
     width: 3.9rem;
   }
 
+  @media (width < 540px) {
+    bottom: 13.3rem;
+    right: calc(50% - 8.9rem);
+    width: 2.2rem;
+  }
+
   img {
     width: 100%;
   }
 }
-/*999 graffiti*/
+/*MARK:999 graffiti*/
 body > button:nth-of-type(6) {
   z-index: 30;
   position: fixed;
@@ -384,7 +396,7 @@ body > button:nth-of-type(6) {
     width: 100%;
   }
 }
-/*pokemon tower*/
+/*MARK:pokemon-tower*/
 body > button:nth-of-type(1) {
   z-index: 35;
   position: fixed;
@@ -403,7 +415,7 @@ body > button:nth-of-type(1) {
   }
 }
 
-/*muziekding*/
+/*MARK: muziekding*/
 button:nth-of-type(5) {
   z-index: 40;
   position: fixed;
@@ -416,7 +428,7 @@ button:nth-of-type(5) {
     width: 100%;
   }
 }
-/*luffy straw hat*/
+/*MARK:luffy-straw-hat*/
 button:nth-of-type(4) {
   z-index: 40;
   position: fixed;
@@ -436,6 +448,7 @@ button:nth-of-type(4) {
 
 /* veel @media toegevoegd om te zorgen dat het in kleiner scherm op de goede plek is maar zodat het ook in fullscreen goed staat (alles deed het ook op telefoon maar sinds ik met sanne light dark mode heb toegevoegd is de achtergrond op telefoon weg en het is mij nog niet gelukt dit te herstellen)*/
 
+/* MARK:vliegtuig */
 body > button:nth-of-type(2) {
   z-index: 45;
   position: fixed;
