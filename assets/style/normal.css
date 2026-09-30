@@ -105,6 +105,7 @@ form {
 html:has([value="light"]:checked) {
   color-scheme: light;
   --brand-primary-color: rgb(11, 11, 11);
+  --link-color: rgb(221, 221, 126);
   --link-hover-color: rgb(65, 201, 235);
   --link-active-color: rgb(24, 44, 112);
   --hover-color: rgb(221, 221, 126);
@@ -123,6 +124,7 @@ html:has([value="light"]:checked) label:has([value="light"]) {
 html:has([value="dark"]:checked) {
   color-scheme: dark;
   --brand-primary-color: rgb(255, 59, 59);
+  --link-color: rgb(232, 163, 163);
   --link-hover-color: rgb(244, 243, 244);
   --link-active-color: rgb(70, 5, 5);
   --tab-color: rgb(72, 38, 138);
@@ -183,7 +185,7 @@ body {
 
 /* ALGEMENE button styling */
 a {
-  color: var(--brand-primary-color);
+  color: var(--link-color);
 }
 a:hover {
   color: var(--link-hover-color);
@@ -220,8 +222,8 @@ input[type="radio"] {
 label {
   z-index: 40;
   position: fixed;
-  bottom: 75%;
-  left: calc(50% - 13rem);
+  bottom: 70%;
+  left: calc(50% - 13.5rem);
 
   @media (width > 85em) {
     left: calc(50% - 14.8rem);
@@ -347,7 +349,7 @@ body > img:nth-of-type(2) {
   left: 0;
 }
 /*xxx graffiti*/
-body > button:nth-of-type(1) {
+body > button:nth-of-type(7) {
   z-index: 50;
   position: fixed;
   right: calc(50% - 16.5rem);
@@ -365,7 +367,7 @@ body > button:nth-of-type(1) {
   }
 }
 /*999 graffiti*/
-body > button:nth-of-type(2) {
+body > button:nth-of-type(6) {
   z-index: 30;
   position: fixed;
   right: calc(50% - 13.2rem);
@@ -383,7 +385,7 @@ body > button:nth-of-type(2) {
   }
 }
 /*pokemon tower*/
-button:nth-of-type(4) {
+body > button:nth-of-type(1) {
   z-index: 35;
   position: fixed;
   left: calc(50% - 7.8rem);
@@ -415,7 +417,7 @@ button:nth-of-type(5) {
   }
 }
 /*luffy straw hat*/
-button:nth-of-type(6) {
+button:nth-of-type(4) {
   z-index: 40;
   position: fixed;
   bottom: 25%;
@@ -431,9 +433,10 @@ button:nth-of-type(6) {
     width: 100%;
   }
 }
+
 /* veel @media toegevoegd om te zorgen dat het in kleiner scherm op de goede plek is maar zodat het ook in fullscreen goed staat (alles deed het ook op telefoon maar sinds ik met sanne light dark mode heb toegevoegd is de achtergrond op telefoon weg en het is mij nog niet gelukt dit te herstellen)*/
 
-button:nth-of-type(7) {
+body > button:nth-of-type(2) {
   z-index: 45;
   position: fixed;
   width: 14em;

@@ -4,6 +4,72 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 30 sept - [les]
+
+vandaag testen gedaan samen met laura en hayrye
+
+screenreader
+Headings
+Is de structuur logisch?
+ja
+heeft elk kopje goed aan wat er onder het kopje valt?
+ja
+
+    Interactie elementen
+    link, button, dialog, details/summary, inputs…
+    Zijn ze opgenomen in het de overzichten met interactie elementen?
+
+weet ik niet
+
+    Geeft elke link goed aan waar naartoe gelinkt wordt?
+
+ja
+Heeft elke button een heldere naam?….
+ja
+
+toetsenbord only
+Interactie elementen
+link, button, dialog, details/summary, inputs…
+Zijn ze allemaal te bereiken met het toetsenbord?
+ja
+Is de volgorde logisch (focus-volgorde - gelijk aan visuele volgorde)?
+nee volgorde is gek
+Zijn er :focus en :active states?
+ja zeker
+Is er een skip to content link?
+niet echt toepasselijk op mijn site
+
+wcag
+<img src="img/screenreaderwcag.jpg";>
+
+kwam vooral uit dat de responsivenes verticaal en op telefoon een problee,m is en dat de tab volgorde gek is
+
+Checkout
+
+    Waar staat WCAG en A11y voor?
+
+Web Content Accessibility Guidelines. dus om toegankelijkheid van website te checken
+
+A: de eerste letter van het woord Accessibility.
+11: het aantal letters dat tussen de eerste en de laatste letter zit (c-c-e-s-s-i-b-i-l-i-t).
+Y: de laatste letter van het woord Accessibility.
+
+    Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+
+screenreader vind ik lastiger omdat het veel andere nutteloze info opnoemd.
+
+    Met welke beperking rekening houden vind je het meest lastig?
+
+mensen die alleen een telefoon hebben en geen laptop
+
+    Vind je dat je beperkt wordt in wat je kunt ontwerpen?
+
+nee eigenlijk niet het gaat best wel goed, het duurt vooral lang om te onderzoeken hoe dingen moeten maar alles is mogelijk, ik vind wel dat ik beperkt word als ik ervoor moet zorgen dat het een enorm toegankelijke site moet zijn want dat is het niet
+
+    Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+
+een extra zwart witte variant met andere kleuren toegevoegd, en afbeelding anders gemaakt in zwart wit mode en hover kleuren anders
+
 ### 29 sept - [thuis]
 
 veel aan mijn site gewerkt, veel uitgezocht hoe het stijlen van de zwarte en de witte variant werkt en wat je wel en niet moet stijlen want sommige dingen doen dan niks of passen op normale light dark mode aan inplaats van op de switch uiteindelijk veel verschillende hover kleuren toegevoegd in de grijze modus de teksten rood gemaakt andere lettertype gegeven en afbeelding switch toegevoegd.

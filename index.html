@@ -36,6 +36,79 @@
       </label>
     </form>
 
+    <button popovertarget="pokemon">
+      <img src="img/pokemontower.png" alt="[pokemon tower]" />
+      <!-- toren zelf getekend, pokemon zelf getekend met inspiratie-->
+    </button>
+
+    <section id="pokemon" popover>
+      <h1>Are you sure you want to battle pokemon on another site?</h1>
+      <p>
+        <a href="https://pokerogue.net/">yes</a>
+        <!-- een link van een (on officiele) browser pokemon game die ik zelf veel heb gespeeld (pokemon staat het toe omdat het non profit is)-->
+      </p>
+    </section>
+
+    <button commandfor="cookievliegtuig" command="show-modal">
+      <img src="img/vliegtuig.png" alt="plane with cookie banner behind it " />
+    </button>
+
+    <dialog id="cookievliegtuig">
+      <form method="dialog">
+        <h2>Cookies</h2>
+        <p>
+          Cookies are tiny pieces of data that websites can store on your
+          device. They can help remember things like your preferences and how
+          you use a website. This website doesn't use cookies itself, but
+          GitHub, which hosts this site, may use cookies. So... want to let the
+          cookies in?
+        </p>
+
+        <button onclick="setCookie()">allright</button>
+        <button onclick="unsetCookie()">nope</button>
+      </form>
+    </dialog>
+
+    <button popovertarget="viking">
+      <img src="img/viking2.gif" alt="viking ship" />
+      <!-- zelf getekend in procreate-->
+    </button>
+
+    <section id="viking" popover>
+      <img src="./img/gowboot.avif" alt="god of war game cover image" />
+      <!-- afbeelding van het web-->
+      <h1>Norse mythology</h1>
+      <p>
+        This vikingship represents my love for norse mythology mostly due to the
+        god of war game series which I love.
+      </p>
+      <p>
+        I really like the soundtrack too, so I recommend you to check it out.
+      </p>
+
+      <h2>Links</h2>
+      <!-- youtube en playstation site links voor trailers, muziek en waar je de game kan kopen-->
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/watch?v=K0u_kAWLJOA">Trailer</a>
+        </li>
+        <li>
+          <a
+            href="https://www.playstation.com/nl-nl/games/god-of-war/
+        "
+            >The game</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=H6udjKIojoE&list=OLAK5uy_nWbRrBVDIDM_08DLg_u1uagBWoHdPQS5k
+          "
+            >Soundtrack</a
+          >
+        </li>
+      </ul>
+    </section>
+
     <!--img2-->
     <img
       src="img/personlookingatview.png"
@@ -49,45 +122,30 @@
     <!--<img src="img/xxxgraffiti.png" alt="xxxgraffiti" />-->
     <!--oude img zelfgemaakt-->
 
-    <button popovertarget="xxx">
-      <!--popover gemaakt met wat ik mij kon herinneren van vorig jaar en mdn web site-->
-      <img
-        src="img/xxxgraffiti.png"
-        alt="a graffiti that consists of 3 xes verticly above each other  "
-      /><!--oude img zelfgemaakt-->
+    <button popovertarget="luffy">
+      <img src="img/luffyhat.png" alt="luffy hat" />
+      <!-- zelf getekend in procreate-->
     </button>
 
-    <section id="xxx" popover>
-      <img src="./img/badvibesforever.webp" alt="XXXTentacion album cover" />
-      <!-- afbeelding van album cover van het web gehaald-->
-      <h1>XXXTENTACION</h1>
+    <section id="luffy" popover>
+      <img src="img/onepiece.jpg" alt="image of cover art from the serie" />
+      <!-- van het web een img gehaald-->
+      <h1>One Piece</h1>
       <p>
-        Jahseh Onfroy also know as XXXTENTACION was an American rapper who died
-        in 2018 after being shot in his car. This is a little memorial for him.
+        one piece is an animated series about pirates and a boys dream to become
+        the pirate king. The series has been going on for over 20 years now and
+        it's a series I really enjoy watching.
       </p>
-
-      <h2>My favorite songs:</h2>
-      <!-- youtube linkjes-->
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/watch?v=LZJy-QN45Rw"
-            >It's all fading to black</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/watch?v=-jRKsiAOAA8&list=RD-jRKsiAOAA8&start_radio=1"
-            >Falling down</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/watch?v=tLNOce4Y4uc&list=RDtLNOce4Y4uc&start_radio=1"
-            >Arms around you</a
-          >
-        </li>
-      </ul>
     </section>
+
+    <button onclick="playGeluid()">
+      <img src="img/beweegmuziekplaat.gif" alt=" lp player which plays music" />
+      <!-- zelf getekend in procreate, plaat gebaseerd op spiderverse plaat uit spiderman into the spiderverse-->
+    </button>
+
+    <audio src="img/11Ayala(Outro).mp3" loop></audio
+    ><!--staat in mapje img boven aan-->
+    <!-- eigen mp3 file die ik bij de plaat kreeg toen ik de lp kocht (jammer genoeg niet de zelfde plaat als die ik heb getekend maar die had ik niet op mp3)-->
 
     <button popovertarget="999">
       <img
@@ -139,103 +197,45 @@
       </ul>
     </section>
 
-    <button popovertarget="viking">
-      <img src="img/viking2.gif" alt="viking ship" />
-      <!-- zelf getekend in procreate-->
+    <button popovertarget="xxx">
+      <!--popover gemaakt met wat ik mij kon herinneren van vorig jaar en mdn web site-->
+      <img
+        src="img/xxxgraffiti.png"
+        alt="a graffiti that consists of 3 xes verticly above each other  "
+      /><!--oude img zelfgemaakt-->
     </button>
 
-    <section id="viking" popover>
-      <img src="./img/gowboot.avif" alt="god of war game cover image" />
-      <!-- afbeelding van het web-->
-      <h1>Norse mythology</h1>
+    <section id="xxx" popover>
+      <img src="./img/badvibesforever.webp" alt="XXXTentacion album cover" />
+      <!-- afbeelding van album cover van het web gehaald-->
+      <h1>XXXTENTACION</h1>
       <p>
-        This vikingship represents my love for norse mythology mostly due to the
-        god of war game series which I love.
-      </p>
-      <p>
-        I really like the soundtrack too, so I recommend you to check it out.
+        Jahseh Onfroy also know as XXXTENTACION was an American rapper who died
+        in 2018 after being shot in his car. This is a little memorial for him.
       </p>
 
-      <h2>Links</h2>
-      <!-- youtube en playstation site links voor trailers, muziek en waar je de game kan kopen-->
+      <h2>My favorite songs:</h2>
+      <!-- youtube linkjes-->
       <ul>
         <li>
-          <a href="https://www.youtube.com/watch?v=K0u_kAWLJOA">Trailer</a>
-        </li>
-        <li>
-          <a
-            href="https://www.playstation.com/nl-nl/games/god-of-war/
-        "
-            >The game</a
+          <a href="https://www.youtube.com/watch?v=LZJy-QN45Rw"
+            >It's all fading to black</a
           >
         </li>
         <li>
           <a
-            href="https://www.youtube.com/watch?v=H6udjKIojoE&list=OLAK5uy_nWbRrBVDIDM_08DLg_u1uagBWoHdPQS5k
-          "
-            >Soundtrack</a
+            href="https://www.youtube.com/watch?v=-jRKsiAOAA8&list=RD-jRKsiAOAA8&start_radio=1"
+            >Falling down</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=tLNOce4Y4uc&list=RDtLNOce4Y4uc&start_radio=1"
+            >Arms around you</a
           >
         </li>
       </ul>
     </section>
-
-    <button popovertarget="pokemon">
-      <img src="img/pokemontower.png" alt="[pokemon tower]" />
-      <!-- toren zelf getekend, pokemon zelf getekend met inspiratie-->
-    </button>
-
-    <section id="pokemon" popover>
-      <h1>Are you sure you want to battle pokemon on another site?</h1>
-      <p>
-        <a href="https://pokerogue.net/">yes</a>
-        <!-- een link van een (on officiele) browser pokemon game die ik zelf veel heb gespeeld (pokemon staat het toe omdat het non profit is)-->
-      </p>
-    </section>
-
-    <button onclick="playGeluid()">
-      <img src="img/beweegmuziekplaat.gif" alt=" lp player which plays music" />
-      <!-- zelf getekend in procreate, plaat gebaseerd op spiderverse plaat uit spiderman into the spiderverse-->
-    </button>
-
-    <audio src="img/11Ayala(Outro).mp3" loop></audio
-    ><!--staat in mapje img boven aan-->
-    <!-- eigen mp3 file die ik bij de plaat kreeg toen ik de lp kocht (jammer genoeg niet de zelfde plaat als die ik heb getekend maar die had ik niet op mp3)-->
-
-    <button popovertarget="luffy">
-      <img src="img/luffyhat.png" alt="luffy hat" />
-      <!-- zelf getekend in procreate-->
-    </button>
-
-    <section id="luffy" popover>
-      <img src="img/onepiece.jpg" alt="image of cover art from the serie" />
-      <!-- van het web een img gehaald-->
-      <h1>One Piece</h1>
-      <p>
-        one piece is an animated series about pirates and a boys dream to become
-        the pirate king. The series has been going on for over 20 years now and
-        it's a series I really enjoy watching.
-      </p>
-    </section>
-
-    <button commandfor="cookievliegtuig" command="show-modal">
-      <img src="img/vliegtuig.png" alt="plane with cookie banner behind it " />
-    </button>
-
-    <dialog id="cookievliegtuig">
-      <form method="dialog">
-        <h2>Cookies</h2>
-        <p>
-          Cookies are tiny pieces of data that websites can store on your
-          device. They can help remember things like your preferences and how
-          you use a website. This website doesn't use cookies itself, but
-          GitHub, which hosts this site, may use cookies. So... want to let the
-          cookies in?
-        </p>
-
-        <button onclick="setCookie()">allright</button>
-        <button onclick="unsetCookie()">nope</button>
-      </form>
-    </dialog>
 
     <!--
     base die ik heb uitgezet omdat ik het niet nodig heb maar niet weet of het weg mag
