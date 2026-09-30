@@ -70,6 +70,10 @@ nee eigenlijk niet het gaat best wel goed, het duurt vooral lang om te onderzoek
 
 een extra zwart witte variant met andere kleuren toegevoegd, en afbeelding anders gemaakt in zwart wit mode en hover kleuren anders
 
+contrast verandert na checker
+
+<img src="assets/image/contrast-check.png";>
+
 ### 29 sept - [thuis]
 
 veel aan mijn site gewerkt, veel uitgezocht hoe het stijlen van de zwarte en de witte variant werkt en wat je wel en niet moet stijlen want sommige dingen doen dan niks of passen op normale light dark mode aan inplaats van op de switch uiteindelijk veel verschillende hover kleuren toegevoegd in de grijze modus de teksten rood gemaakt andere lettertype gegeven en afbeelding switch toegevoegd.
