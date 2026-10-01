@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 31 sept - [ thuis]
+
+readme bijgewerkt en werk ingeleverd
+
 ### 30 sept - [les]
 
 vandaag testen gedaan samen met laura en hayrye
@@ -78,6 +82,10 @@ contrast verandert na checker
 
 veel aan mijn site gewerkt, veel uitgezocht hoe het stijlen van de zwarte en de witte variant werkt en wat je wel en niet moet stijlen want sommige dingen doen dan niks of passen op normale light dark mode aan inplaats van op de switch uiteindelijk veel verschillende hover kleuren toegevoegd in de grijze modus de teksten rood gemaakt andere lettertype gegeven en afbeelding switch toegevoegd.
 
+en idee geschetst van vliegtuig met cookies en draak in dark mode
+
+<img src="img/drakenschets.jpg";>
+
 ### 28 sept - [ les ]
 
 propaganda vragen gemaakt
@@ -124,6 +132,9 @@ feedback
 ### 23 sept - [ les ]
 
 eerst gastspreker wat wel leuk was, erna les waarin we schetsen van dark patterns moesten maken en onze ideeen voor info afstaan moesten schetsen.
+
+<img src="img/dark-pattern1.jpg";>
+<img src="img/dark-pattern1b.jpg";>
 
 Checkout
 
@@ -376,6 +387,8 @@ thuis gekeken naar hoe je popovers moet toevoegen en hoe je die er dan in stijlt
 
 eerst vragen gekregen daar extra vragen op bedenken en bedenken met welke onderzoekt methode je op die vragen kan antwoorden.
 
+<img src="img/biweekly1.jpg";>
+<img src="img/biweekly1b.jpg";>
 toen naar lokaal en geholpen met wat vragen:
 
 - zwarte balk boven de image hoe krijg ik dat weg?
