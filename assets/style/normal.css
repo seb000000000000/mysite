@@ -132,12 +132,19 @@ section {
   height: 30em;
   padding: 3em;
   border-radius: 3em;
-  background-color: rgba(255, 255, 255, 0.105);
+  background-color: rgba(127, 70, 104, 0.5);
   backdrop-filter: blur(0.25em);
   color: var(--brand-primary-color);
+  text-shadow: 1px 5px 2px black;
+
   @media (prefers-color-scheme: dark) {
     border-color: var(--brand-primary-color);
     color: var(--brand-primary-color);
+  }
+  @media (prefers-contrast: more) {
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(0);
   }
 
   img {
@@ -185,6 +192,7 @@ dialog {
   }
 }
 /* MARK:form (cookie) */
+
 form {
   color: var(--brand-primary-color);
 }
@@ -490,16 +498,23 @@ body > button:nth-of-type(2) {
   button:nth-of-type(3) {
     left: 40em;
     animation: none;
+    img {
+      content: url("../../img/vikingstil.png");
+    }
+  }
+
+  button:nth-of-type(5) {
+    img {
+      content: url("../../img/muziekplaat.png");
+    }
   }
 
   html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
-    content: url("../../img/flydragongif.gif");
+    content: url("../../img/draakstil.png");
     width: 100%;
 
     @media (width < 540px) {
       width: 80%;
     }
   }
-}
-@media (prefers-reduced-contrast: no-preference) {
 }
