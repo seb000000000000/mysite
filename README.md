@@ -8,6 +8,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 readme bijgewerkt en werk ingeleverd
 
+jammmer genoeg nog niet toegekomen aan reduced motion
+
 ### 30 sept - [les]
 
 vandaag testen gedaan samen met laura en hayrye

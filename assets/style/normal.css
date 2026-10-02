@@ -289,51 +289,6 @@ button:nth-of-type(3) {
   }
 }
 
-@keyframes --vikingschip-animatie {
-  0% {
-    translate: calc((100dvw + 11rem) * -0.5);
-  }
-  7% {
-    translate: calc((100dvw + 11rem) * -0.37);
-  }
-  15% {
-    translate: calc((100dvw + 11rem) * -0.25);
-  }
-  23% {
-    translate: calc((100dvw + 11rem) * -0.13);
-  }
-  30% {
-    translate: calc((100dvw + 11rem) * 0);
-  }
-  37% {
-    translate: calc((100dvw + 11rem) * 0.13);
-  }
-  45% {
-    translate: calc((100dvw + 11rem) * 0.25);
-  }
-  53% {
-    translate: calc((100dvw + 11rem) * 0.37);
-  }
-  60% {
-    translate: calc((100dvw + 11rem) * 0.5);
-  }
-  67% {
-    translate: calc((100dvw + 11rem) * 0.63);
-  }
-  75% {
-    translate: calc((100dvw + 11rem) * 0.75);
-  }
-  87% {
-    translate: calc((100dvw + 11rem) * 0.87);
-  }
-  100% {
-    translate: calc((100dvw + 11rem) * 1);
-  }
-  113% {
-    translate: calc((100dvw + 11rem) * 1.13);
-  }
-}
-
 /*MARK:zittend persoon*/
 body > img:nth-of-type(1) {
   position: fixed;
@@ -467,16 +422,84 @@ body > button:nth-of-type(2) {
   }
 }
 
-@keyframes --vliegtuig-animatie {
-  100% {
-    translate: calc((100dvw + 11rem) * -0.5);
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes --vikingschip-animatie {
+    0% {
+      translate: calc((100dvw + 11rem) * -0.5);
+    }
+    7% {
+      translate: calc((100dvw + 11rem) * -0.37);
+    }
+    15% {
+      translate: calc((100dvw + 11rem) * -0.25);
+    }
+    23% {
+      translate: calc((100dvw + 11rem) * -0.13);
+    }
+    30% {
+      translate: calc((100dvw + 11rem) * 0);
+    }
+    37% {
+      translate: calc((100dvw + 11rem) * 0.13);
+    }
+    45% {
+      translate: calc((100dvw + 11rem) * 0.25);
+    }
+    53% {
+      translate: calc((100dvw + 11rem) * 0.37);
+    }
+    60% {
+      translate: calc((100dvw + 11rem) * 0.5);
+    }
+    67% {
+      translate: calc((100dvw + 11rem) * 0.63);
+    }
+    75% {
+      translate: calc((100dvw + 11rem) * 0.75);
+    }
+    87% {
+      translate: calc((100dvw + 11rem) * 0.87);
+    }
+    100% {
+      translate: calc((100dvw + 11rem) * 1);
+    }
+    113% {
+      translate: calc((100dvw + 11rem) * 1.13);
+    }
+  }
+  @keyframes --vliegtuig-animatie {
+    100% {
+      translate: calc((100dvw + 11rem) * -0.5);
+    }
+
+    50% {
+      translate: calc((100dvw + 11rem) * 0.13);
+    }
+
+    0% {
+      translate: calc((100dvw + 44rem) * 0.75);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body > button:nth-of-type(2) {
+    left: 40em;
+    animation: none;
+  }
+  button:nth-of-type(3) {
+    left: 40em;
+    animation: none;
   }
 
-  50% {
-    translate: calc((100dvw + 11rem) * 0.13);
-  }
+  html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
+    content: url("../../img/flydragongif.gif");
+    width: 100%;
 
-  0% {
-    translate: calc((100dvw + 44rem) * 0.75);
+    @media (width < 540px) {
+      width: 80%;
+    }
   }
+}
+@media (prefers-reduced-contrast: no-preference) {
 }
