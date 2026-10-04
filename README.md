@@ -4,7 +4,32 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-### 2 october
+### 2 october - [les]
+
+reduced motion nog toegevoegd
+
+terugkijken op de 2e tot 4e week
+<img src="assets/image/opwarming.jpg";>
+<img src="assets/image/grafiek-4weken.jpeg";>
+<img src="assets/image/vermoeiende-stranddag.jpg";>
+
+Feedback:
+
+Contrast text aanpassen
+
+Ying yang button niet opacity 0 doen
+
+Cookie status en gevolg maken
+
+Screen reader leren gebruiken
+
+H1 op bilboard zetten met uitleg
+
+Images alt meer uitleg over wat er erna gebeurd
+
+Responsivenes op telefoon voor kleinere tel
+
+High contrast mode
 
 ### 31 sept - [ thuis]
 
