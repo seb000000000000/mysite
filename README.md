@@ -4,6 +4,86 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 6 october [thuis]
+
+werken aan digitale schets met behulp vassilis deepdive
+
+wat lukt niet: lettertype, woorden apart stylen, media quiry met width alles aanpassen, en grid rijen
+
+van feedback van vrijdag lukt het niet om reduced motion in ding te zetten en om responsiveness naar groter schrem te maken
+
+contrast mode afgemaakt
+
+contrast normaal ook aangepast
+
+alt texten meer descriptive gemaakt
+
+h1 met uitleg toegevoegd
+
+responsivenes gelukt alleen niet verticaal /groter scherm
+
+ik heb ying yang deels gefixt maar even navragen bij sanne morgen
+
+### 5 october [les]
+
+schetsen gemaakt voor beasty boys nummer intergalactic
+<img src="assets/image/schetsentypografielyric.jpeg";>
+<img src="assets/image/schetsentypografielyric2.jpeg";>
+<img src="assets/image/schetsentypografielyric3.jpeg";>
+
+Check-out
+
+    Leg uit wat er met de volgende termen bedoeld wordt:
+
+kerning,
+
+- per letter afstand aanpassen zodat er bij sommige letterconbinaties geen gat tussen zit
+  tracking,
+- de white space tussen letters, woorden, regels en parafrafen
+  leading,
+- regel afstand, wat tekst langzamer of compacter kan maken
+  flush-left,
+- dat de text links uitlijnd
+  flush-right,
+- dat de tekst rechts uitlijnd
+  centered,
+- dat de tekst in het midden uitlijnd  
+  justified,
+- het is links en rechts uitgelijnd maar ruimtes tussen woorden worden aangepast waardoor er gaten kunnen komen
+  indent,
+- de 1e regel begin meer naar het midden
+  outdent,
+- 1e regel begin links erbuiten
+  modular scale,
+- een schaal maken zodat letters van verschillende grootes nogsteeds samen passen
+  movable type,
+- de blokjes met letters voor een typmachine
+  focus punt,
+- doordat iets anders is trekt het de aandacht. bijv door grote
+  vijf soorten contrast,
+- groote, kleur, ruimte, gewicht, vorm
+  spatial tension.
+  spanning creeeren door bepaalde dingen te doen, zoals:
+- dingen off centre zetten,
+- een richting creeren door alle text daar naartoe te laten bewegen,
+- gekke vormen en grootes gebruiken
+- gekke witruimtes gebruiken
+- diepte maken
+- afsnijden  
+   (Hint, alle termen staan in de artikelen die we samen gelezen hebben)
+
+      Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+
+  ik heb niet echt een favoriete regellengte want
+
+het ligt er aan in welke context dus voor een boek een artikel of een handleiding
+
+- maar ik denk iets van 10 woorden per zin? net ook een boek opengeslagen om te kijken hoeveel die had en die had 11 dus denk dat ik redelijk goed zit met 10
+
+  Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+
+- plaatsing, want door veel zinnen letters verticaal of horizondaal of in cirkels te zetten kan je er grotere voorden mee maken en je kan er veel mee doen
+
 ### 2 october - [les]
 
 reduced motion nog toegevoegd
@@ -30,6 +110,8 @@ Images alt meer uitleg over wat er erna gebeurd
 Responsivenes op telefoon voor kleinere tel
 
 High contrast mode
+
+media quiries onder item zelf zetten
 
 ### 31 sept - [ thuis]
 

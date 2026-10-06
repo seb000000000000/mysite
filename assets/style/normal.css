@@ -98,8 +98,14 @@ html:has([value="dark"]:checked) button:focus-visible {
 
 html:has([value="dark"]:checked) section {
   background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(1em);
+  backdrop-filter: blur(0.2em) brightness(0.3);
   font-family: drip;
+
+  @media (prefers-contrast: more) {
+    color: rgb(246, 243, 243);
+    background-color: rgb(9, 9, 9);
+    backdrop-filter: blur(0);
+  }
 }
 html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
   content: url("../../img/flydragongif.gif");
@@ -132,10 +138,13 @@ section {
   height: 30em;
   padding: 3em;
   border-radius: 3em;
-  background-color: rgba(127, 70, 104, 0.5);
-  backdrop-filter: blur(0.25em);
+  background-color: rgba(83, 59, 73, 0.5);
+  backdrop-filter: blur(0.1em) brightness(0.75);
   color: var(--brand-primary-color);
-  text-shadow: 1px 5px 2px black;
+  text-shadow:
+    0px 0px 3px rgb(0, 0, 0),
+    0px 0px 3px rgb(0, 0, 0),
+    0px 0px 15px rgb(0, 0, 0);
 
   @media (prefers-color-scheme: dark) {
     border-color: var(--brand-primary-color);
@@ -198,6 +207,10 @@ form {
 }
 
 /* MARK:A styling*/
+
+h1 {
+  appearance: none;
+}
 a {
   color: var(--link-color);
 }
@@ -229,7 +242,9 @@ button:focus-visible {
 /* MARK:yingyang (label is ying yang input is radio button) */
 input[type="radio"] {
   position: absolute;
-  opacity: 0;
+  appearance: none;
+  inset: 0;
+  outline: none;
 }
 
 label {
@@ -244,6 +259,10 @@ label {
   }
   img {
     width: 3em;
+  }
+  @media (width < 30em) {
+    left: calc(50% - -4.3rem);
+    bottom: 57%;
   }
 }
 
@@ -334,7 +353,7 @@ body > button:nth-of-type(7) {
   @media (width < 540px) {
     bottom: 13.3rem;
     right: calc(50% - 8.9rem);
-    width: 2.2rem;
+    width: 2.3rem;
   }
 
   img {
