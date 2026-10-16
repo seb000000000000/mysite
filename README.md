@@ -4,6 +4,40 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 9 october [school en deepdive]
+
+uit feedback het liefst wel hele tekst, font switchen naar seraph en responsive maken:
+
+seraph versie
+<img src="assets/image/Screenshot 2026-10-09 103842.png";>
+
+Check-out
+
+    Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
+
+- de hele bold variant, een dunne variant mer haakjes en een soort mix tussen bold en sierlijk
+  Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
+- dikke harde lage text dunne hoge wat zachtere text
+  Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
+- letters van dikte te laten veranderen
+
+deepdive animations gedaan op school:
+
+### 7 october [school]
+
+verder met songtekst
+erna feedback van diederik: vond het heel goed passen maar zei dat ik nog wat kon spelen met fonts en het responsive maken naar telefoon
+
+<img src="assets/image/Screenshot 2026-10-07 122802.png";>
+
+- Check-out:
+  Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+- voor de ontwerper zorgt het dat alles goed opgelijnd staat en je makkelijk dingen kan aanpassen voor de bezoeker oogt het rustig
+  Noem drie manieren om chaos in je ontwerp te voorkomen.
+- hierarchie, typografie en ritme
+  Hoeveel gekkigheid moet er in je werk zitten?
+- zo veel mogelijk
+
 ### 6 october [thuis]
 
 werken aan digitale schets met behulp vassilis deepdive
