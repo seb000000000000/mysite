@@ -4,6 +4,14 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 18 october [thuis]
+
+typografie responsive maken en verder uitwerken
+
+### 16 october [thuis]
+
+lyrics erbij maken bij digital garden, aangezien de lyrics meer dan 50 regels zijn heb ik het met javascript gedaan inplaats van css omdat 50 regels om te zoveel seconde van opacity te laten veranderen een minder mooie manier van code schrijven is.
+
 ### 9 october [school en deepdive]
 
 uit feedback het liefst wel hele tekst, font switchen naar seraph en responsive maken:
