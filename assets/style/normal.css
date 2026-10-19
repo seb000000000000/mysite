@@ -328,7 +328,7 @@ picture {
 } /* ik dacht dat deze weg kon na dat ik de img heb replaced voor background image en daar boven nieuwe stijling voor heb maar als ik de code weghaal klopt de uitlijning niet meer dus laat ik het toch maar hier */
 
 /*MARK:vikingschip */
-button:nth-of-type(3) {
+button:nth-of-type(4) {
   /* van sanne hulp gekregen over basis van animatie toen zelf gekeken naar hoe ik schommel effect kan toevoegen */
 
   z-index: 40;
@@ -369,7 +369,7 @@ body > img:nth-of-type(2) {
   left: 0;
 }
 /*MARK:xxx graffiti*/
-body > button:nth-of-type(7) {
+body > button:nth-of-type(8) {
   z-index: 50;
   position: fixed;
   right: calc(50% - 16.5rem);
@@ -393,7 +393,7 @@ body > button:nth-of-type(7) {
   }
 }
 /*MARK:999 graffiti*/
-body > button:nth-of-type(6) {
+body > button:nth-of-type(7) {
   z-index: 30;
   position: fixed;
   right: calc(50% - 13.2rem);
@@ -430,7 +430,7 @@ body > button:nth-of-type(1) {
 }
 
 /*MARK: muziekding*/
-button:nth-of-type(5) {
+button:nth-of-type(6) {
   z-index: 40;
   position: fixed;
   bottom: 0%;
@@ -457,7 +457,7 @@ audio + p {
 }
 
 /*MARK:luffy-straw-hat*/
-button:nth-of-type(4) {
+button:nth-of-type(5) {
   z-index: 40;
   position: fixed;
   bottom: 25%;
@@ -488,6 +488,22 @@ body > button:nth-of-type(2) {
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+
+  img {
+    width: 100%;
+  }
+}
+
+body > button:nth-of-type(3) {
+  z-index: 45;
+  position: fixed;
+  width: 8em;
+
+  padding: 0%;
+  animation-name: --ufo-animatie;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: alternate;
 
   img {
     width: 100%;
@@ -552,6 +568,31 @@ body > button:nth-of-type(2) {
       translate: calc((100dvw + 44rem) * 0.75);
     }
   }
+
+  @keyframes --ufo-animatie {
+    0% {
+      bottom: 40em;
+      translate: calc((100dvw + 11rem) * 0);
+    }
+
+    25% {
+      bottom: 30em;
+      translate: calc((100dvw + 11rem) * 0.4);
+    }
+
+    50% {
+      bottom: 40em;
+      translate: calc((100dvw + 11rem) * 0.8);
+    }
+    75% {
+      bottom: 30em;
+      translate: calc((100dvw + 11rem) * 0.4);
+    }
+    100% {
+      bottom: 40em;
+      translate: calc((100dvw + 11rem) * 0);
+    }
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -559,7 +600,7 @@ body > button:nth-of-type(2) {
     left: 40em;
     animation: none;
   }
-  button:nth-of-type(3) {
+  button:nth-of-type(4) {
     left: 40em;
     animation: none;
     img {
@@ -567,7 +608,12 @@ body > button:nth-of-type(2) {
     }
   }
 
-  button:nth-of-type(5) {
+  button:nth-of-type(3) {
+    left: 65em;
+    animation: none;
+  }
+
+  button:nth-of-type(6) {
     img {
       content: url("../../img/muziekplaat.png");
     }
