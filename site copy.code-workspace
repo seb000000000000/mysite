@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "mysite",
+		"path": "."
+	},
+	{
+		"name": "intergalactic",
+		"path": "../blok 1/intergalactic"
+	}
+],
+  "settings": {}
+}

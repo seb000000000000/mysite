@@ -1,0 +1,188 @@
+/* MARK: fonts */
+html {
+  max-height: 100dvh;
+}
+@font-face {
+  font-family: "megrim";
+  src: url("fonts/SeraphsVF.woff2") format("truetype");
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body {
+  font-family: "megrim", sans-serif;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 20em);
+}
+
+h1 {
+  font-family: "megrim", sans-serif;
+  font-size: 6rem;
+  letter-spacing: 0.5em;
+  font-weight: normal;
+  margin: 0%;
+}
+
+h2 {
+  transform: rotate(-20deg) translateY(1em) translateX(-2em);
+  font-size: 300%;
+  text-align: end;
+  line-height: 0.7;
+  margin-left: 2em;
+}
+
+dm1 {
+  font-size: 80%;
+  margin-right: 0.3em;
+  br {
+    margin-right: 0.3em;
+  }
+}
+dm2 {
+  font-size: 110%;
+  font-weight: 1000;
+  letter-spacing: 0.2em;
+}
+DM3H {
+  font-size: 170%;
+  font-weight: 10;
+  letter-spacing: -0.08em;
+  font-style: italic;
+  margin-right: 0.2em;
+  font-variation-settings:
+    "wght" 100,
+    "SRFS" 43;
+}
+DM4L {
+  font-size: 100%;
+  font-weight: 10;
+  letter-spacing: 0.3em;
+  font-style: italic;
+  font-weight: 1000;
+}
+
+.intergalactic {
+  margin: -10em 0 20em 0;
+  padding: 0%;
+  font-size: 100%;
+  transform: rotate(45deg);
+  width: 22em;
+  height: 100px;
+  z-index: 5;
+  letter-spacing: 0.7em;
+  font-weight: 800;
+
+  animation-name: myAnimation;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes myAnimation {
+  0% {
+    translate: -55vw;
+  }
+
+  100% {
+    translate: 110vw;
+  }
+}
+main {
+  width: max-content;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+article {
+  margin-left: 0;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 50vw;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0em;
+}
+em {
+  font-size: 300%;
+  color: greenyellow;
+}
+
+biga {
+  font-size: 160%;
+  z-index: 2;
+}
+footer {
+  align-content: end;
+  text-align: end;
+}
+
+@media (width < 675px) {
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 0.1em;
+    margin: 3em 3em 2em 1em;
+  }
+
+  h2 {
+    font-size: 300%;
+    margin-top: 5dvh;
+  }
+
+  .intergalactic {
+    font-size: 200%;
+    letter-spacing: 0.2em;
+  }
+
+  article {
+    margin-top: 10dvh;
+    font-size: 100%;
+    position: left;
+  }
+
+  em {
+    font-size: 200%;
+  }
+
+  biga {
+    font-size: 130%;
+  }
+}
+
+@media (width < 400px) {
+  h1 {
+    font-size: 15dvw;
+    letter-spacing: 0.1em;
+  }
+
+  h2 {
+    font-size: 15dvw;
+    margin-top: 1dvh;
+  }
+
+  .intergalactic {
+    font-size: 5dvh;
+    letter-spacing: 0.2em;
+  }
+
+  article {
+    margin-top: 1dvh;
+    font-size: 3dvh;
+    position: left;
+  }
+
+  em {
+    font-size: 3dvh;
+  }
+
+  biga {
+    font-size: 5dvh;
+  }
+}
