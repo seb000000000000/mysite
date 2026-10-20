@@ -85,7 +85,7 @@ mijnGeluid.addEventListener("timeupdate", function () {
     songtekst.textContent = huidigeRegel;
   }
 });
-
+//vliegtuig animatie, dat hij switch als je op deny klikt en dat de gif word herladen elke keer als je op deny klikt
 function vlieg() {
   const vliegimg = document.querySelector("body > button:nth-of-type(2) img");
   vliegimg.src = "img/vliegtuig.png";

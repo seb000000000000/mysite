@@ -1,11 +1,24 @@
 /* MARK: fonts */
 html {
   max-height: 100dvh;
+  background-color: rgb(220, 244, 201);
 }
 @font-face {
   font-family: "megrim";
   src: url("fonts/SeraphsVF.woff2") format("truetype");
 }
+@font-face {
+  font-family: audio;
+  src: url("fonts/Audiowide-Regular.ttf") format("truetype");
+}
+
+a {
+  position: fixed;
+  font-family: "megrim";
+  font-weight: bolder;
+  color: red;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,10 +33,9 @@ body {
 }
 
 h1 {
-  font-family: "megrim", sans-serif;
+  font-family: "audio", sans-serif;
   font-size: 6rem;
   letter-spacing: 0.5em;
-  font-weight: normal;
   margin: 0%;
 }
 
@@ -33,6 +45,19 @@ h2 {
   text-align: end;
   line-height: 0.7;
   margin-left: 2em;
+  animation-name: --anotherdimention-animatie;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+@keyframes --anotherdimention-animatie {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
 }
 
 dm1 {
@@ -65,33 +90,6 @@ DM4L {
   font-weight: 1000;
 }
 
-.intergalactic {
-  margin: -10em 0 20em 0;
-  padding: 0%;
-  font-size: 100%;
-  transform: rotate(45deg);
-  width: 22em;
-  height: 100px;
-  z-index: 5;
-  letter-spacing: 0.7em;
-  font-weight: 800;
-
-  animation-name: myAnimation;
-  animation-duration: 7s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes myAnimation {
-  0% {
-    translate: -55vw;
-  }
-
-  100% {
-    translate: 110vw;
-  }
-}
 main {
   width: max-content;
   margin-top: 4em;
@@ -113,6 +111,19 @@ p {
 em {
   font-size: 300%;
   color: greenyellow;
+  animation-name: titel-animatie;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+@keyframes titel-animatie {
+  0% {
+    font-weight: 100;
+  }
+  100% {
+    font-weight: 900;
+  }
 }
 
 biga {
@@ -122,8 +133,20 @@ biga {
 footer {
   align-content: end;
   text-align: end;
+  animation-name: --footer-animatie;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
-
+@keyframes --footer-animatie {
+  0% {
+    width: 85dvw;
+  }
+  100% {
+    width: 140dvw;
+  }
+}
 @media (width < 675px) {
   h1 {
     font-size: 4rem;
@@ -167,11 +190,6 @@ footer {
     margin-top: 1dvh;
   }
 
-  .intergalactic {
-    font-size: 5dvh;
-    letter-spacing: 0.2em;
-  }
-
   article {
     margin-top: 1dvh;
     font-size: 3dvh;
@@ -186,3 +204,139 @@ footer {
     font-size: 5dvh;
   }
 }
+
+.drop {
+  z-index: 20;
+  size: 200%;
+  animation-name: drop-animation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes drop-animation {
+  25% {
+    font-size: 300%;
+  }
+
+  100% {
+    font-size: 0%;
+  }
+}
+.steam {
+  animation-name: steam-animation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes steam-animation {
+  0% {
+    opacity: 100;
+  }
+
+  100% {
+    color: aliceblue;
+    font-size: 400%;
+    opacity: 0;
+  }
+}
+
+.inter {
+  margin: 0;
+  padding: 0;
+  font-size: 400%;
+  z-index: 5;
+  letter-spacing: 1em;
+  font-weight: 800;
+  color: red;
+  transform: rotate(45deg);
+}
+
+.intergalactic1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  animation-name: myAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes myAnimation {
+  0% {
+    translate: 140vw 0;
+  }
+
+  100% {
+    translate: -100vw 0;
+  }
+}
+.intergalactic2 {
+  margin: 0;
+  padding: 0;
+  font-size: 300%;
+
+  letter-spacing: 2em;
+  font-weight: 800;
+  color: red;
+  position: fixed;
+  left: 1em;
+
+  opacity: 25%;
+
+  animation-name: intergalactic2;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: rotate(none);
+}
+
+@keyframes intergalactic2 {
+  0% {
+    translate: 0 -200vh;
+  }
+
+  100% {
+    translate: 0 100vh;
+  }
+}
+
+/*
+.intergalactic3 {
+  animation-name: intergalactic3;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes intergalactic3 {
+  0% {
+    translate: 500;
+  }
+
+  100% {
+    translate: -250vw;
+  }
+}
+.intergalactic4 {
+  animation-name: intergalactic4;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes intergalactic4 {
+  0% {
+    translate: 500vw;
+  }
+
+  100% {
+    translate: 500vw;
+  }
+} */

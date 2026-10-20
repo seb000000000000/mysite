@@ -26,6 +26,8 @@ html {
   min-height: 100dvh;
   background-size: cover;
   background-position: center center;
+
+  max-width: 90em;
 }
 
 /* MARK:body */
@@ -493,7 +495,7 @@ body > button:nth-of-type(2) {
     width: 100%;
   }
 }
-
+/*MARK:UFO*/
 body > button:nth-of-type(3) {
   z-index: 45;
   position: fixed;
@@ -509,7 +511,7 @@ body > button:nth-of-type(3) {
     width: 100%;
   }
 }
-
+/*MARK:animation/reduced motion*/
 @media (prefers-reduced-motion: no-preference) {
   @keyframes --vikingschip-animatie {
     0% {
@@ -596,10 +598,12 @@ body > button:nth-of-type(3) {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  /* vliegtuig */
   body > button:nth-of-type(2) {
     left: 40em;
     animation: none;
   }
+  /* viking */
   button:nth-of-type(4) {
     left: 40em;
     animation: none;
@@ -607,12 +611,12 @@ body > button:nth-of-type(3) {
       content: url("../../img/vikingstil.png");
     }
   }
-
+  /* ufo */
   button:nth-of-type(3) {
     left: 65em;
     animation: none;
   }
-
+  /* lp */
   button:nth-of-type(6) {
     img {
       content: url("../../img/muziekplaat.png");

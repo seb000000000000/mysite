@@ -4,6 +4,15 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 19 october [ school]
+
+ufo intergalactic in garden verwerkt
+Check-out
+
+    Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
+    Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
+    Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
+
 ### 18 october [thuis]
 
 typografie responsive maken en verder uitwerken
