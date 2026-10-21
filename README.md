@@ -6,7 +6,9 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 21 october [ school ]
 
-feedback diederik contrast is nu lastig beat drop misschien laten droppen
+feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys
+
+vandaag verder code opgeruimd en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
 
 ### 19 october [ school]
 
