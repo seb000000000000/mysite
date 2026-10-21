@@ -1,7 +1,7 @@
 /* MARK: fonts */
 html {
   max-height: 100dvh;
-  background-color: rgb(220, 244, 201);
+  background-color: white;
 }
 @font-face {
   font-family: "megrim";
@@ -94,7 +94,6 @@ main {
   width: max-content;
   margin-top: 4em;
   display: flex;
-  flex-direction: row;
   gap: 1em;
 }
 article {

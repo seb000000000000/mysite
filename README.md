@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 21 october [ school ]
+
+feedback diederik contrast is nu lastig beat drop misschien laten droppen
+
 ### 19 october [ school]
 
 ufo intergalactic in garden verwerkt
