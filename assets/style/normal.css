@@ -485,7 +485,7 @@ html:has([value="light"]:checked) body.vlieg > button:nth-of-type(2) {
   z-index: 22;
   scale: 2.3;
 }
-
+/*met chat gpt en sannes voorbeeld geklooid om uiteindelijk erachter te gomen hoe je gevolgen kan zetten op switchen van light/dark mode en goe je dan img kan replacen, uitleg: als dark mode aanstaatverandert de afbeelding van button cookievliegtuig naar content die je er in zet in dot geval draak*/
 html:has([value="dark"]:checked) button[commandfor="cookievliegtuig"] img {
   content: url("../../img/flydragongif.gif");
   width: 200%;
@@ -510,7 +510,7 @@ body > button:nth-of-type(3) {
     width: 100%;
   }
 }
-/*MARK:animation/reduced motion*/
+/* MARK:animation/reduced motion */ /*sanne heeft uitgelegd hoe animaties werken en toen zelf mee gespeeld om verschillend te maken (wilde dit nesten maar dat doet hij het niet meer dus nog niet gedaan)*/
 @media (prefers-reduced-motion: no-preference) {
   @keyframes --vikingschip-animatie {
     0% {

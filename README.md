@@ -6,18 +6,38 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 21 october [ school ]
 
+<img src="assets/image/peerfeedback1.jpeg.png";>
+<img src="assets/image/peerfeedback2.jpeg.png";>
+<img src="assets/image/biweekgeek3.jpg.png";>
 feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys
+<img src="assets/image/Screenshot 2026-10-21 165407.png.jpg.png";>
 
 vandaag verder code opgeruimd en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
 
+ying yang probleem deels opgelost maar op de ene of andere manier past het de main site niet aan en was al lang bij deepdive/hulp uur sanne en waren veel mensen voor mij dus geen tijd meer gehad om het verder te vragen
+
+### 20 october [thuis]
+
+nog meer aan typografie gewerkt
+
 ### 19 october [ school]
+
+samen site gecheckt: <img src="assets/image/webbycheck.jpeg.png";>
 
 ufo intergalactic in garden verwerkt
 Check-out
 
     Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
+
+veel verschillende soorten, dus met of zonder schreef dik of dun etc
+
     Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
+
+hogere en lagere tonen door dikte en schreef
+
     Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
+
+ja gedaan om het een futuriste intergalactische stijl te geven de grote letterspacing tekst van boven naar beneden
 
 ### 18 october [thuis]
 

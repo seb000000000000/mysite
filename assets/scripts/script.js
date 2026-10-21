@@ -1,4 +1,4 @@
-// op welke tijd je wat ziet
+// op welke tijd je wat ziet, wilde het eigenlijk zoals sanne voorstelde met css doen  maar om 50 regels met css over elkaar heen te zetten en opacity een om een veranderen word gewoon heel rommelig en dan is dit een nettere manier om het te doen, via chat gpt erachter gekomen hoe het werkt maar handmatig alle timings functies moeten doen en alles erin gezet.
 const regels = [
   { tijd: 5, tekst: "Aye, aye, aye, aye (ooh)" },
   { tijd: 10, tekst: "Ooh, ooh, ooh, ooh-ooh (ooh)" },
@@ -97,6 +97,7 @@ function stortneer() {
   const vliegimg = document.querySelector("body > button:nth-of-type(2) img");
   vliegimg.src = "img/neerstort-vliegtuig.gif";
 
+  // dit gedeelte hier onder samen met sanne opgezocht hoe je gif zichzelf laat verversen na druk op knop met ai
   const vliegimgsrc = vliegimg.src;
   vliegimg.src = vliegimgsrc.split("?")[0] + "?t=" + new Date().getTime();
 
