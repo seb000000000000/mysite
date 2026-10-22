@@ -9,10 +9,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 <img src="assets/image/peerfeedback1.jpeg.png";>
 <img src="assets/image/peerfeedback2.jpeg.png";>
 <img src="assets/image/biweekgeek3.jpg.png";>
-feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys
+feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys ben helaas vergeten screenshot te maken van hoe het er ervoor uitzag
 <img src="assets/image/Screenshot 2026-10-21 165407.png.jpg.png";>
 
-vandaag verder code opgeruimd en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
+vandaag verder code opgeruimd en wat dingen genest om het netter te maken (niet alles werkte als ik het nestte dus niet alles genest) en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
 
 ying yang probleem deels opgelost maar op de ene of andere manier past het de main site niet aan en was al lang bij deepdive/hulp uur sanne en waren veel mensen voor mij dus geen tijd meer gehad om het verder te vragen
 
