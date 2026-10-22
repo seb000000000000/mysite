@@ -504,8 +504,8 @@ body > button:nth-of-type(3) {
   animation-name: --ufo-animatie;
   animation-duration: 12s;
   animation-iteration-count: infinite;
-  animation-timing-function: alternate;
-
+  animation-timing-function: ease-in-out;
+  /* had hier eerst alternate maar dat werkte niet dus nu gewoon dit en in de keyframes heen en weer gezet */
   img {
     width: 100%;
   }
