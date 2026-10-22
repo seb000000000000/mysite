@@ -16,6 +16,10 @@ vandaag verder code opgeruimd en wat dingen genest om het netter te maken (niet 
 
 ying yang probleem deels opgelost maar op de ene of andere manier past het de main site niet aan en was al lang bij deepdive/hulp uur sanne en waren veel mensen voor mij dus geen tijd meer gehad om het verder te vragen
 
+he hij lijkt nu opgelost te zijn
+
+ik bedenk mij nu wel dat de intergalactic site niet op minder animatie reageerd maar heb geen tijd meer om dat aan te passen dus als dat echt belangrijk is kan ik dat in het weekend nog wel doen
+
 ### 20 october [thuis]
 
 nog meer aan typografie gewerkt
