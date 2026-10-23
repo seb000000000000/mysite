@@ -7,8 +7,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 ### 23 october [ school/feedback]
 
 <img src="img/IMG_6536.jpeg">
-<img src="img/IMG_6537.jpeg";>
-<img src="img/retrospective-3-tekening.jpg";>
+<img src="img/IMG_6537.jpeg">
+<img src="img/retrospective-3-tekening.jpg">
 het moet een leuke maar drukke en chaotische vakantie voorstellen
 
 feedback: paar kleine dingetjes aanpassen
@@ -25,11 +25,11 @@ en gevolg maken dat als je cookies accepteerd er allemaal adds komenn
 
 ### 21 october [ school ]
 
-<img src="img/peerfeedback1.jpeg";>
-<img src="img/peerfeedback2.jpeg";>
-<img src="img/biweekgeek3.jpg";>
+<img src="img/peerfeedback1.jpeg">
+<img src="img/peerfeedback2.jpeg">
+<img src="img/biweekgeek3.jpg">
 feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys ben helaas vergeten screenshot te maken van hoe het er ervoor uitzag
-<img src="img/Screenshot 2026-10-21 165407.png";>
+<img src="img/Screenshot 2026-10-21 165407.png">
 Screenshot 2026-10-21 165407.png.jpg
 vandaag verder code opgeruimd en wat dingen genest om het netter te maken (niet alles werkte als ik het nestte dus niet alles genest) en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
 
@@ -45,7 +45,7 @@ nog meer aan typografie gewerkt
 
 ### 19 october [ school]
 
-samen site gecheckt: <img src="img/webbycheck.jpeg";>
+samen site gecheckt: <img src="img/webbycheck.jpeg">
 
 ufo intergalactic in garden verwerkt
 Check-out
@@ -75,7 +75,7 @@ lyrics erbij maken bij digital garden, aangezien de lyrics meer dan 50 regels zi
 uit feedback het liefst wel hele tekst, font switchen naar seraph en responsive maken:
 
 seraph versie
-<img src="img/Screenshot 2026-10-09 103842.png";>
+<img src="img/Screenshot 2026-10-09 103842.png">
 
 Check-out
 
@@ -96,7 +96,7 @@ deepdive animations gedaan op school:
 verder met songtekst
 erna feedback van diederik: vond het heel goed passen maar zei dat ik nog wat kon spelen met fonts en het responsive maken naar telefoon
 
-<img src="img/Screenshot 2026-10-07 122802.png";>
+<img src="img/Screenshot 2026-10-07 122802.png">
 
 - Check-out:
   Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
@@ -129,9 +129,9 @@ ik heb ying yang deels gefixt maar even navragen bij sanne morgen
 ### 5 october [les]
 
 schetsen gemaakt voor beasty boys nummer intergalactic
-<img src="img/schetsentypografielyric.jpeg";>
-<img src="img/schetsentypografielyric2.jpeg";>
-<img src="img/schetsentypografielyric3.jpeg";>
+<img src="img/schetsentypografielyric.jpeg">
+<img src="img/schetsentypografielyric2.jpeg">
+<img src="img/schetsentypografielyric3.jpeg">
 
 Check-out
 
@@ -191,9 +191,9 @@ het ligt er aan in welke context dus voor een boek een artikel of een handleidin
 reduced motion nog toegevoegd
 
 terugkijken op de 2e tot 4e week
-<img src="img/opwarming.jpg";>
-<img src="img/grafiek-4weken.jpeg";>
-<img src="img/vermoeiende-stranddag.jpg";>
+<img src="img/opwarming.jpg">
+<img src="img/grafiek-4weken.jpeg">
+<img src="img/vermoeiende-stranddag.jpg">
 
 Feedback:
 
