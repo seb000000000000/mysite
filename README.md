@@ -16,7 +16,7 @@ feedback: paar kleine dingetjes aanpassen
 h1 naar h2: gedaan
 ontwerp proces typografie erin zetten (staat er blijkbaar al in,over het hoofd gezien)
 typografie responsive maken (verticaal)
-plaatjes githubreadme fixen
+plaatjes githubreadme fixen: achter foto stond;
 toegankelijkheid wet test 2 doen
 toegankelijkheid test verbeterslag
 
@@ -257,7 +257,7 @@ Is er een skip to content link?
 niet echt toepasselijk op mijn site
 
 wcag
-<img src="img/screenreaderwcag.jpg";>
+<img src="img/screenreaderwcag.jpg">
 
 kwam vooral uit dat de responsivenes verticaal en op telefoon een problee,m is en dat de tab volgorde gek is
 
@@ -289,7 +289,7 @@ een extra zwart witte variant met andere kleuren toegevoegd, en afbeelding ander
 
 contrast verandert na checker
 
-<img src="img/contrast-check.png";>
+<img src="img/contrast-check.png">
 
 ### 29 sept - [thuis]
 
@@ -297,17 +297,17 @@ veel aan mijn site gewerkt, veel uitgezocht hoe het stijlen van de zwarte en de 
 
 en idee geschetst van vliegtuig met cookies en draak in dark mode
 
-<img src="img/drakenschets.jpg";>
+<img src="img/drakenschets.jpg">
 
 ### 28 sept - [ les ]
 
 propaganda vragen gemaakt
-<img src="img/propagandaonderzoek.jpg";>
-<img src="img/propagandaonderzoek2.jpg";>
+<img src="img/propagandaonderzoek.jpg">
+<img src="img/propagandaonderzoek2.jpg">
 recap van vassilis gekregen
 
 vs bedienen zonder touchpad
-<img src="img/vs-reis-info.png";>
+<img src="img/vs-reis-info.png">
 
 check out
 
@@ -346,8 +346,8 @@ feedback
 
 eerst gastspreker wat wel leuk was, erna les waarin we schetsen van dark patterns moesten maken en onze ideeen voor info afstaan moesten schetsen.
 
-<img src="img/dark-pattern1.jpg";>
-<img src="img/dark-pattern1b.jpg";>
+<img src="img/dark-pattern1.jpg">
+<img src="img/dark-pattern1b.jpg">
 
 Checkout
 
@@ -363,15 +363,15 @@ Waar moet je als ontwerper rekening mee houden bij het maken van een human conse
 
 meer geleerd over buttons en hoe ik de img een glow moet geven als hover
 
-<img src="img/glowyship.png";>
-<img src="img/button-hover.png";>
-<img src="img/button-state.png";>
+<img src="img/glowyship.png">
+<img src="img/button-hover.png">
+<img src="img/button-state.png">
 
 had ook nog een vraag over hoe ik het met tab kan bedienen want bij mij gaan de buttons dat linksboven staan maar daar had vasilis geen tijd meer voor
 
 ### 21 sept - [ les]
 
-eerst uitleg van justus toen opdracht over cookie popup <img src="img/aantekeningencookies.jpg";>
+eerst uitleg van justus toen opdracht over cookie popup <img src="img/aantekeningencookies.jpg">
 
 Checkout
 
@@ -600,8 +600,8 @@ thuis gekeken naar hoe je popovers moet toevoegen en hoe je die er dan in stijlt
 
 eerst vragen gekregen daar extra vragen op bedenken en bedenken met welke onderzoekt methode je op die vragen kan antwoorden.
 
-<img src="img/biweekly1.jpg";>
-<img src="img/biweekly1b.jpg";>
+<img src="img/biweekly1.jpg">
+<img src="img/biweekly1b.jpg">
 toen naar lokaal en geholpen met wat vragen:
 
 - zwarte balk boven de image hoe krijg ik dat weg?
@@ -665,7 +665,7 @@ ook bezig geweest met de deep dive over kleur <img src="img/kleurdeepdive1.png">
 
 ### 9 sept - [ presentatie ]
 
-presentatie ging heel goed heel blij met hoe de presentatie er uiteindelijk uitziet, 8 spetember tot laat aan gewerkt maar uiteindelijk wel met een goed resultaat. ook de collage is goed gelukt <img src="oefeningen/presentatie/image/colage.png";>
+presentatie ging heel goed heel blij met hoe de presentatie er uiteindelijk uitziet, 8 spetember tot laat aan gewerkt maar uiteindelijk wel met een goed resultaat. ook de collage is goed gelukt <img src="oefeningen/presentatie/image/colage.png">
 
     Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content?
 
@@ -728,7 +728,7 @@ hier is mijn miro board https://miro.com/app/board/uXjVHpsXBFw=/?moveToWidget=34
 
 ### 8 sept - [ presentatie voorbereiden en light dark mode les]
 
-eerst les van vassilis, heeft mij heel erg geholpen met het uitleggen wat er allemaal mogelijk is met light en dark mode en valideert mijn idee dus dat is heel fijn, ook heeft hij mij geholpen met hoe je de presentatie opend want dat lukte eerst maar niet maar moest blijkbaar in browser tekst aanpassen, hebben voor de rest ook geleerd hoe je light en dark mode kan aanmaken en ook geleerd dat je images er ook responsive naar kan maken. <img src="img/kleur paasr.png";><img src="img/rood.png";>
+eerst les van vassilis, heeft mij heel erg geholpen met het uitleggen wat er allemaal mogelijk is met light en dark mode en valideert mijn idee dus dat is heel fijn, ook heeft hij mij geholpen met hoe je de presentatie opend want dat lukte eerst maar niet maar moest blijkbaar in browser tekst aanpassen, hebben voor de rest ook geleerd hoe je light en dark mode kan aanmaken en ook geleerd dat je images er ook responsive naar kan maken. <img src="img/kleur paasr.png"><img src="img/rood.png">
 
 word bestand aangemaakt met allemaal plaatjes en links en bedenken wat ik precies wil doen, ik dacht wel aan een zwart wit modus maar kon voor de rest niet echt een goed onderwerp/overlappend idee vinden, ik heb uiteindelijk bedacht om het mario idee te laten vallen en voledig te focussen op de zwart wit modus aangezien dat is wat veel van de intresses gemeen hebben dus wil ik laten zien hoe de online wereld in zwart wit verandert en wat je kan doen om het aantrekkelijk te houden.
 
@@ -824,8 +824,8 @@ ook achter gekomen dat java script het liefst zo min mogelijk gebruikt word dus 
 
 als vragen had ik in de les wat atom was en of we dat moesten gebruiken aangezien we al vs codium gebruiken en atom dan overbodig leek. en dat klopte, atom is gewoon een ander programma wat je mag gebruiken als je wilt.
 
-foto aantekeningen css in file <img src="img/justus html.jpeg";>
-schets les was ook leuk eerst oude schetsen geranked en gekeken naar wat een schets goed maakt, duidelijkheid, annotaties, lettertype schaduw en nog wat andere dingen. erna moesten we een site na schetsen wat ik wel een hele opdracht vond en wel goed was gelukt en leerden we hoe we een animatie konden laten zien in de schets door blauwe stippel lijnen. <img src="img/schets les.jpeg";>
+foto aantekeningen css in file <img src="img/justus html.jpeg">
+schets les was ook leuk eerst oude schetsen geranked en gekeken naar wat een schets goed maakt, duidelijkheid, annotaties, lettertype schaduw en nog wat andere dingen. erna moesten we een site na schetsen wat ik wel een hele opdracht vond en wel goed was gelukt en leerden we hoe we een animatie konden laten zien in de schets door blauwe stippel lijnen. <img src="img/schets les.jpeg">
 
 eind van de dag heeft laura mij nog geholpen om het digitale tuintje goed werkend te krijgen en nu zou alles het moeten doen
 
@@ -833,7 +833,7 @@ eind van de dag heeft laura mij nog geholpen om het digitale tuintje goed werken
 
 wel geprobeerd thuis powerpoint te volgen van nicky, begreep het allemaal wel goed want was vooral herhaling van experimenteren met interactie.
 
-- toen idee van mario game geprobeerd begin uit te werken door toen thuis nog een youtube tutorial te volgen over hoe je de chrome dino game moet maken, en zelf wat dingen aangepast om het richting mijn idee van mario te veranderen. https://www.youtube.com/watch?v=lgck-txzp9o <img src="img/image-2.png";>
+- toen idee van mario game geprobeerd begin uit te werken door toen thuis nog een youtube tutorial te volgen over hoe je de chrome dino game moet maken, en zelf wat dingen aangepast om het richting mijn idee van mario te veranderen. https://www.youtube.com/watch?v=lgck-txzp9o <img src="img/image-2.png">
 
 - idee: miss iets met pokemon turn based battle ofzo maken als site
 
