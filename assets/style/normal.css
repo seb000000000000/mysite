@@ -128,15 +128,15 @@ html:has([value="dark"]:checked) label:has([value="light"]) {
   display: block;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   label:has([value="dark"]) {
     display: none;
   }
-} */
+}
 
-/* html:has([value="light"]:checked) label:has([value="light"]) {
+html:has([value="light"]:checked) label:has([value="light"]) {
   display: none;
-} */
+}
 
 /* MARK:body */
 body {
@@ -231,6 +231,13 @@ dialog {
 
 form {
   color: var(--brand-primary-color);
+}
+
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
 }
 
 /* MARK:A styling*/

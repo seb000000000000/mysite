@@ -4,13 +4,32 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 23 october [ school/feedback]
+
+<img src="img/IMG_6536.jpeg">
+<img src="img/IMG_6537.jpeg";>
+<img src="img/retrospective-3-tekening.jpg";>
+het moet een leuke maar drukke en chaotische vakantie voorstellen
+
+feedback: paar kleine dingetjes aanpassen
+
+h1 naar h2: gedaan
+ontwerp proces typografie erin zetten (staat er blijkbaar al in,over het hoofd gezien)
+typografie responsive maken (verticaal)
+plaatjes githubreadme fixen
+toegankelijkheid wet test 2 doen
+toegankelijkheid test verbeterslag
+
+als er nog tijd is klein ding met ying jang fixen
+en gevolg maken dat als je cookies accepteerd er allemaal adds komenn
+
 ### 21 october [ school ]
 
 <img src="img/peerfeedback1.jpeg";>
 <img src="img/peerfeedback2.jpeg";>
 <img src="img/biweekgeek3.jpg";>
 feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys ben helaas vergeten screenshot te maken van hoe het er ervoor uitzag
-<img src="img/Screenshot 2026-10-21 165407.png"";>
+<img src="img/Screenshot 2026-10-21 165407.png";>
 Screenshot 2026-10-21 165407.png.jpg
 vandaag verder code opgeruimd en wat dingen genest om het netter te maken (niet alles werkte als ik het nestte dus niet alles genest) en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
 
@@ -69,6 +88,8 @@ Check-out
 - letters van dikte te laten veranderen
 
 deepdive animations gedaan op school:
+
+<img src="img/Screenshot 2026-10-23 114723.png">
 
 ### 7 october [school]
 
