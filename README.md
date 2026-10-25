@@ -4,6 +4,14 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 25 october [thuis]
+
+bezig geweest met typografie respnsive maken, was een heel gedoe maar is uiteindelijk denk ik wel gooed gelukt, heb ook toegevoegd dat op een bepaalde scherm groote de tekst van boven naar beneden 90deg draait waardoor het beter te lezen is en er beter uitzien op klein scherm.
+<img src="img/Screenshot 2026-10-25 110154.png">
+
+hier zat ik lang mee te klooien dat het een beetje kiezen was tussen helemaal scrollen (ook verticaal wat ik niet wilde) of helemaal niet scrollen want de fixed positie van intergalactic zorgde ervoor dat je niet meer kon scrollen maar na heel veel klooien kwam ik erachter dat je het heel simpel kon fixen door pointer events none toe te voegen
+<img src="img/Screenshot 2026-10-25 095438.png">
+
 ### 23 october [ school/feedback]
 
 <img src="img/IMG_6536.jpeg">
@@ -14,11 +22,11 @@ het moet een leuke maar drukke en chaotische vakantie voorstellen
 feedback: paar kleine dingetjes aanpassen
 
 h1 naar h2: gedaan
-ontwerp proces typografie erin zetten (staat er blijkbaar al in,over het hoofd gezien)
-typografie responsive maken (verticaal)
-plaatjes githubreadme fixen: achter foto stond;
-toegankelijkheid wet test 2 doen
-toegankelijkheid test verbeterslag
+ontwerp proces typografie erin zetten: (stond er blijkbaar al in, over het hoofd gezien)
+typografie responsive maken (verticaal): gelukt
+plaatjes githubreadme fixen: achter foto stond ; is nu gefixt
+toegankelijkheid wet test 2 doen:
+toegankelijkheid test verbeterslag:
 
 als er nog tijd is klein ding met ying jang fixen
 en gevolg maken dat als je cookies accepteerd er allemaal adds komenn

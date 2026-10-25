@@ -92,16 +92,15 @@ DM4L {
 
 main {
   width: max-content;
-  margin-top: 4em;
   display: flex;
-  gap: 1em;
+  margin: 0;
+  padding: 0;
 }
 article {
-  margin-left: 0;
-  flex-shrink: 0;
   width: 100%;
-  max-width: 50vw;
-  padding: 0;
+  max-width: 60vw;
+  max-height: 40vh;
+  margin: 0;
 }
 p {
   padding: 0;
@@ -182,17 +181,22 @@ footer {
   h1 {
     font-size: 15dvw;
     letter-spacing: 0.1em;
+    margin: 0.5em;
+    padding: 0;
+    position: center;
   }
 
   h2 {
-    font-size: 15dvw;
+    font-size: 20dvw;
     margin-top: 1dvh;
   }
 
   article {
-    margin-top: 1dvh;
-    font-size: 3dvh;
-    position: left;
+    font-size: 1em;
+    width: 90%;
+    max-width: 10rem;
+
+    height: auto;
   }
 
   em {
@@ -201,6 +205,54 @@ footer {
 
   biga {
     font-size: 5dvh;
+  }
+}
+
+@media (height < 700px) {
+  html {
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  h1 {
+    font-size: 7dvh;
+    letter-spacing: 0.1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0;
+    position: center;
+  }
+
+  h2 {
+    font-size: 7dvw;
+    margin: 1dvh;
+    margin-right: 2dvw;
+  }
+
+  article {
+    margin: 1dvh;
+    font-size: 3dvh;
+    height: 60%;
+  }
+
+  em {
+    font-size: 3dvh;
+  }
+
+  biga {
+    font-size: 5dvh;
+  }
+  .inter {
+    margin: 0;
+    padding: 0;
+    font-size: 2dvh;
+    z-index: 5;
+    letter-spacing: 1em;
+    font-weight: 800;
+    color: red;
+    transform: rotate(45deg);
   }
 }
 
@@ -245,7 +297,7 @@ footer {
   margin: 0;
   padding: 0;
   font-size: 400%;
-  z-index: 5;
+
   letter-spacing: 1em;
   font-weight: 800;
   color: red;
@@ -253,9 +305,9 @@ footer {
 }
 
 .intergalactic1 {
-  position: fixed;
   top: 0;
   left: 0;
+  pointer-events: none;
 
   animation-name: myAnimation;
   animation-duration: 7s;
@@ -277,6 +329,7 @@ footer {
   margin: 0;
   padding: 0;
   font-size: 300%;
+  pointer-events: none;
 
   letter-spacing: 2em;
   font-weight: 800;
@@ -292,6 +345,14 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform: rotate(none);
+
+  @media (width < 500px) {
+    font-size: 8dvw;
+    transform: rotate(90deg);
+  }
+  @media (height < 400px) {
+    animation-duration: 10s;
+  }
 }
 
 @keyframes intergalactic2 {
@@ -303,7 +364,17 @@ footer {
     translate: 0 100vh;
   }
 }
+@media (width < 500px) {
+  @keyframes intergalactic2 {
+    0% {
+      translate: -75vw -300vh;
+    }
 
+    100% {
+      translate: -75vw 300vh;
+    }
+  }
+}
 /*
 .intergalactic3 {
   animation-name: intergalactic3;
