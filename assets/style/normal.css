@@ -584,7 +584,7 @@ body > button:nth-of-type(3) {
     }
 
     25% {
-      bottom: 30em;
+      bottom: 40dvh;
       translate: calc((100dvw + 11rem) * 0.4);
     }
 
@@ -593,7 +593,7 @@ body > button:nth-of-type(3) {
       translate: calc((100dvw + 11rem) * 0.8);
     }
     75% {
-      bottom: 30em;
+      bottom: 40dvh;
       translate: calc((100dvw + 11rem) * 0.4);
     }
     100% {

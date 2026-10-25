@@ -211,7 +211,6 @@ footer {
 @media (height < 700px) {
   html {
     overflow-y: hidden;
-    overflow-x: scroll;
   }
 
   h1 {

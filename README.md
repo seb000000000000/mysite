@@ -12,6 +12,12 @@ bezig geweest met typografie respnsive maken, was een heel gedoe maar is uiteind
 hier zat ik lang mee te klooien dat het een beetje kiezen was tussen helemaal scrollen (ook verticaal wat ik niet wilde) of helemaal niet scrollen want de fixed positie van intergalactic zorgde ervoor dat je niet meer kon scrollen maar na heel veel klooien kwam ik erachter dat je het heel simpel kon fixen door pointer events none toe te voegen
 <img src="img/Screenshot 2026-10-25 095438.png">
 
+checklist nog gevonden en aanpassingen gedaan of erbij opgeschreven van wat er nog is verandert
+<img src="img/wcagchecklist2.jpg">
+ufo ook op telefoon horizontaal laten passen
+
+enige wat niet goed werkt is de 200% text size op normale site (bij experiment wel) hoe ik dat volgende keer zou fixen is door niet alle buttons en sections te stijlen met em maar met dvh dvw waardoor alleen de tekst vergroot zou worden inplaats van alles op de hele site maar nu geen tijd meer voor
+
 ### 23 october [ school/feedback]
 
 <img src="img/IMG_6536.jpeg">
