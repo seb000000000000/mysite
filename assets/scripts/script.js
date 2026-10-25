@@ -90,12 +90,18 @@ function vlieg() {
   const vliegimg = document.querySelector("body > button:nth-of-type(2) img");
   vliegimg.src = "img/vliegtuig.png";
 
+  const city = document.querySelector("body > picture > img");
+  city.src = "img/addwebsite.png";
+
   document.body.classList.remove("vlieg");
 }
 
 function stortneer() {
   const vliegimg = document.querySelector("body > button:nth-of-type(2) img");
   vliegimg.src = "img/neerstort-vliegtuig.gif";
+
+  const city = document.querySelector("body > picture > img");
+  city.src = "img/eigenstad.png";
 
   // dit gedeelte hier onder samen met sanne opgezocht hoe je gif zichzelf laat verversen na druk op knop met ai
   const vliegimgsrc = vliegimg.src;

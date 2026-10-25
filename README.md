@@ -18,6 +18,8 @@ ufo ook op telefoon horizontaal laten passen
 
 enige wat niet goed werkt is de 200% text size op normale site (bij experiment wel) hoe ik dat volgende keer zou fixen is door niet alle buttons en sections te stijlen met em maar met dvh dvw waardoor alleen de tekst vergroot zou worden inplaats van alles op de hele site maar nu geen tijd meer voor
 
+alles wat ik verandert heb staat in readme maar om een paar dingen op te noemen, is het contrast met letters veranderd zovel in main site als in typografie, is de reduces animation en reduced contrast toegevoegd, zijn er subtitels gekomen bij de muziek, heb ik de meerdere h1 aangepast en 1 hoofd h1 toegevoegd om uitleg te geven over de site voor de screen reader en lang element gecheckt maar was er blijkbaar al. niet alles stond bij de 1e test als no aangegeven maar na tussendoor feedback achter gekomen dat ik het miste en aangepast.
+
 ### 23 october [ school/feedback]
 
 <img src="img/IMG_6536.jpeg">
@@ -28,21 +30,25 @@ het moet een leuke maar drukke en chaotische vakantie voorstellen
 feedback: paar kleine dingetjes aanpassen
 
 h1 naar h2: gedaan
-ontwerp proces typografie erin zetten: (stond er blijkbaar al in, over het hoofd gezien)
-typografie responsive maken (verticaal): gelukt
+ontwerp proces typografie erin zetten: (stond er blijkbaar al in ook papier schetsen, over het hoofd gezien maar nog terug gekeken in proces en nog andere digitale versie toegevoegd)
+typografie responsive maken (verticaal toegevoegd en grootes met device with verandert): gelukt
 plaatjes githubreadme fixen: achter foto stond ; is nu gefixt
-toegankelijkheid wet test 2 doen:
-toegankelijkheid test verbeterslag:
+toegankelijkheid wet test 2 zoeken en in readme zetten: gedaan
+toegankelijkheid test verbeterslag: opgeschreven wat er allemaal verandert is
 
-als er nog tijd is klein ding met ying jang fixen
+als er nog tijd is klein ding met ying jang fixen want voordat ik ying jang activeer doet vliegtuig het niet goed
+
 en gevolg maken dat als je cookies accepteerd er allemaal adds komenn
+
+deze is gelukt, ik heb chat gpt gebruikt om even een img te maken want heb geen tijd meer om dat allemaal te tekenen maar wilde wel nog iets leuks zoals dit toevoegen <img src="img/Screenshot 2026-10-25 134006.png"> en heb die vervolgens in java script gezet door de javascript tekst te gebruiken die ik al had voor het afwijzen van de cookies begreep ik het systeem al dus ging dat best snel
 
 ### 21 october [ school ]
 
 <img src="img/peerfeedback1.jpeg">
 <img src="img/peerfeedback2.jpeg">
 <img src="img/biweekgeek3.jpg">
-feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys ben helaas vergeten screenshot te maken van hoe het er ervoor uitzag
+feedback diederik contrast is nu lastig te zien terug aangepast naar wit en fel groen omdat dat uberhaupt beter past bij beastyboys 
+<img src="img/Screenshot 2026-10-25 131141.png">
 <img src="img/Screenshot 2026-10-21 165407.png">
 Screenshot 2026-10-21 165407.png.jpg
 vandaag verder code opgeruimd en wat dingen genest om het netter te maken (niet alles werkte als ik het nestte dus niet alles genest) en een ding van dat mijn site het in het begin niet goed deed met ying jang opgelost en verder veel gekeken naar wat ik meer kon verbeteren. waar onder andere die dingen ook uitkwamen.
