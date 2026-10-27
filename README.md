@@ -4,6 +4,31 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 26 october [ school]
+
+moesten elkaars werk beoordelen en feeback geven
+
+geschreven feedback
+<img src="img/Screenshot 2026-10-27 124358.png">
+
+gekregen feedback
+<img src="img/stickystickers.jpg">
+maar 1 ding van feedback is dat als de coockie op nope klikt ze het niet meer terug kan vinden, dat kan of door dat het vliegtuig aan het einde is geklikt waardoor hij buiten beeld neerstort of doordat de site is gerefresht waardoor de ying jang rood is en de neerstort animatie klein is (is een bug maar nog niet achter gekomen hoe ik het zonder andere problemen te veroorzaken moet fixen)
+
+dus ik ben het eens met de feedback heb er alleen nog geen oplossing voor in deze korte tijd,
+
+feedback aan shay gegeven:
+<img src="img/Screenshot 2026-10-27 123514.png">
+
+shay haar feedback voor mij:
+<img src="img/Screenshot 2026-10-27 123442.png">
+
+zelf reflectie webby
+<img src="img/zelfreflectie.jpg">
+
+learning log check, enige wat ik nog moet doen is images recht op zetten
+<img src="img/learninglog-check.jpg">
+
 ### 25 october [thuis]
 
 bezig geweest met typografie respnsive maken, was een heel gedoe maar is uiteindelijk denk ik wel gooed gelukt, heb ook toegevoegd dat op een bepaalde scherm groote de tekst van boven naar beneden 90deg draait waardoor het beter te lezen is en er beter uitzien op klein scherm.
@@ -745,6 +770,13 @@ het idee van de bergen en de stad die switchen lijkt mij het coolst maar ook moe
 
 vandaag ook in miro gewerkt wat ik wel een leuke manier van leskrijgen vond
 hier is mijn miro board https://miro.com/app/board/uXjVHpsXBFw=/?moveToWidget=3458764683000762968&cot=14
+
+<img src="img/Screenshot 2026-10-27 135010.png">
+<img src="img/Screenshot 2026-10-27 135036.png">
+<img src="img/Screenshot 2026-10-27 135052.png">
+<img src="img/Screenshot 2026-10-27 135139.png">
+<img src="img/Screenshot 2026-10-27 135209.png">
+screenshots toegevoegd zodat het makkelijker te checken is
 
 ### 8 sept - [ presentatie voorbereiden en light dark mode les]
 
