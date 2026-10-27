@@ -4,6 +4,24 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 27 october [ thuis]
+
+alle images rechtop in learning log gezet
+
+als dingen die ik nog had willen doen is zorgen dat site goed werkt, van wat ik heb ontdekt zijn er 2 opties voor de jing jang maar geen goede oplossing
+
+optie 1 jing jang is in het begin rood, na dat je erop klikt doet site het helemaal zoals het moet
+
+optie 2 jing jang is blauw en alles werkt alleen kan je de jing jang (light dark mode niet met toetsebord bedienen)
+
+ik denk dat de 2e optie voor nu het beste is maar ik zou hem het liefst helemaal fixen
+
+3e optie gevonden: jing jang blauw en je kan hem met toetsebord bedienen alleen doet de animation pause functie van het vliegtuig het niet voordat je 1 keer de light dark mode switcht (met jing jang)
+
+als ik nog meer tijd had had ik graag dit helemaal goed gefixt, verandert dat het vliegtuig buiten beeld kan neerstorten(je kan het wel altijd fixen door via dark mode draak te bewegen) en wat meer customization van dark mode zoals veranderende draak en website ook verticaal voledig goed responsive maken want alles verkt nogsteeds maar het is wat minder mooi, de oplossing is denk ik om posities met view width en heigt te positioneren maar geen tijd meer voor
+
+typografie site wel helemaal responsive maar moet soms na resize refreshen om animaties door te laden
+
 ### 26 october [ school]
 
 moesten elkaars werk beoordelen en feeback geven
@@ -26,7 +44,7 @@ shay haar feedback voor mij:
 zelf reflectie webby
 <img src="img/zelfreflectie.jpg">
 
-learning log check, enige wat ik nog moet doen is images recht op zetten
+learning log check met shay isabeau en nog iemand ben naam vergeten, enige wat ik nog moet doen is images recht op zetten
 <img src="img/learninglog-check.jpg">
 
 ### 25 october [thuis]

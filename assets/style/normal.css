@@ -22,8 +22,8 @@ html {
   /* MARK:light */
   color-scheme: light dark;
   min-height: 100dvh;
-
   max-width: 90em;
+
   color-scheme: light;
   --brand-primary-color: rgb(252, 250, 250);
   --link-color: rgb(221, 221, 126);
@@ -54,8 +54,26 @@ html:has([value="light"]:checked) label:has([value="dark"]) {
   display: block;
 }
 
-/*MARK:dark*/
+html:has([value="dark"]:checked) label:has([value="dark"]) {
+  display: none;
+}
 
+html:has([value="dark"]:checked) label:has([value="light"]) {
+  display: block;
+}
+/* door deze uit te zetten gefixt dat jing jang rood begint maar nogsteeds probleem dat vliegtuig animatie het niet doet zoals het hoort tot je light dark mode switcht*/
+@media (prefers-color-scheme: dark) {
+  /* label:has([value="dark"]) {
+    display: none;
+  } */
+}
+
+html:has([value="light"]:checked) label:has([value="light"]) {
+  display: none;
+}
+
+/*MARK:dark*/
+/* vasilis deepdive dark mode geleerd */
 html:has([value="dark"]:checked) {
   color-scheme: dark;
   --brand-primary-color: rgb(255, 59, 59);
@@ -118,24 +136,6 @@ html:has([value="dark"]:checked) {
       font-family: drip;
     }
   }
-}
-
-html:has([value="dark"]:checked) label:has([value="dark"]) {
-  display: none;
-}
-
-html:has([value="dark"]:checked) label:has([value="light"]) {
-  display: block;
-}
-
-@media (prefers-color-scheme: dark) {
-  label:has([value="dark"]) {
-    display: none;
-  }
-}
-
-html:has([value="light"]:checked) label:has([value="light"]) {
-  display: none;
 }
 
 /* MARK:body */

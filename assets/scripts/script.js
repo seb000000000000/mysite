@@ -52,6 +52,7 @@ const regels = [
   { tijd: 143, tekst: "You're the sunflower (yeah)" },
 ];
 
+//met sanne gedaan
 function playGeluid() {
   const mijnGeluid = document.querySelector("audio");
   const songtekst = document.querySelector("audio + p");
@@ -85,6 +86,8 @@ mijnGeluid.addEventListener("timeupdate", function () {
     songtekst.textContent = huidigeRegel;
   }
 });
+
+//met sanne begonnen en toen ik het begreep zelf dingen aangepast en gemaakt
 //vliegtuig animatie, dat hij switch als je op deny klikt en dat de gif word herladen elke keer als je op deny klikt
 function vlieg() {
   const vliegimg = document.querySelector("body > button:nth-of-type(2) img");
