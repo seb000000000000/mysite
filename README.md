@@ -22,6 +22,9 @@ als ik nog meer tijd had had ik graag dit helemaal goed gefixt, verandert dat he
 
 typografie site wel helemaal responsive maar moet soms na resize refreshen om animaties door te laden
 
+nog even w3c check gedaan en aller goed <img src="img/Screenshot 2026-10-27 160514.png">
+volgende keer zou ik ook graag alle images zonder spaties enzo doen om code in readme netter te maken maar is nu niet te doen om allemaal nog aan te passen in normale site is alles wel goed
+
 ### 26 october [ school]
 
 moesten elkaars werk beoordelen en feeback geven
